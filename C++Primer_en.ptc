@@ -486,401 +486,401 @@
 \contentsline {paragraph}{Constraints on Types That a Container Can Hold}{253}
 \contentsline {subsection}{\numberline {9.2.1}Iterators}{253}
 \contentsline {paragraph}{Iterator Ranges}{253}
-\contentsline {paragraph}{Programming Implications of Using Left-Inclusive Ranges}{253}
-\contentsline {subsection}{\numberline {9.2.2}Container Type Members}{253}
-\contentsline {subsection}{\numberline {9.2.3}begin and end Members}{253}
-\contentsline {subsection}{\numberline {9.2.4}Defining and Initializing a Container}{253}
-\contentsline {paragraph}{Initializing a Container as a Copy of Another Container}{254}
-\contentsline {paragraph}{List Initialization}{254}
-\contentsline {paragraph}{Sequential Container Size-Related Constructors}{254}
-\contentsline {paragraph}{Library \texttt {array}s Have Fixed Size}{254}
-\contentsline {subsection}{\numberline {9.2.5}Assignment and swap}{254}
-\contentsline {subsection}{\numberline {9.2.6}Container Size Operations}{254}
-\contentsline {subsection}{\numberline {9.2.7}Relational Operators}{254}
-\contentsline {section}{\numberline {9.3}Sequential Container Operations}{254}
-\contentsline {subsection}{\numberline {9.3.1}Adding Elements to a Sequential Container}{254}
-\contentsline {subsection}{\numberline {9.3.2}Accessing Elements}{254}
-\contentsline {subsection}{\numberline {9.3.3}Erasing Elements}{254}
-\contentsline {subsection}{\numberline {9.3.4}Specialized forward\_list Operations}{254}
-\contentsline {subsection}{\numberline {9.3.5}Resizing a Container}{254}
-\contentsline {subsection}{\numberline {9.3.6}Container Operations May Invalidate Iterators}{254}
-\contentsline {section}{\numberline {9.4}How a vector Grows}{254}
-\contentsline {section}{\numberline {9.5}Additional string Operations}{254}
-\contentsline {subsection}{\numberline {9.5.1}Other Ways to Construct strings}{254}
-\contentsline {subsection}{\numberline {9.5.2}Other Ways to Change a string}{254}
-\contentsline {subsection}{\numberline {9.5.3}string Search Operations}{254}
-\contentsline {subsection}{\numberline {9.5.4}The compare Functions}{254}
-\contentsline {subsection}{\numberline {9.5.5}Numeric Conversions}{254}
-\contentsline {section}{\numberline {9.6}Container Adaptors}{254}
-\contentsline {section}{Chapter Summary}{255}
-\contentsline {section}{Defined Terms}{255}
+\contentsline {paragraph}{Programming Implications of Using Left-Inclusive Ranges}{254}
+\contentsline {subsection}{\numberline {9.2.2}Container Type Members}{254}
+\contentsline {subsection}{\numberline {9.2.3}begin and end Members}{254}
+\contentsline {subsection}{\numberline {9.2.4}Defining and Initializing a Container}{254}
+\contentsline {paragraph}{Initializing a Container as a Copy of Another Container}{255}
+\contentsline {paragraph}{List Initialization}{255}
+\contentsline {paragraph}{Sequential Container Size-Related Constructors}{255}
+\contentsline {paragraph}{Library \texttt {array}s Have Fixed Size}{255}
+\contentsline {subsection}{\numberline {9.2.5}Assignment and swap}{255}
+\contentsline {subsection}{\numberline {9.2.6}Container Size Operations}{255}
+\contentsline {subsection}{\numberline {9.2.7}Relational Operators}{255}
+\contentsline {section}{\numberline {9.3}Sequential Container Operations}{255}
+\contentsline {subsection}{\numberline {9.3.1}Adding Elements to a Sequential Container}{255}
+\contentsline {subsection}{\numberline {9.3.2}Accessing Elements}{255}
+\contentsline {subsection}{\numberline {9.3.3}Erasing Elements}{255}
+\contentsline {subsection}{\numberline {9.3.4}Specialized forward\_list Operations}{255}
+\contentsline {subsection}{\numberline {9.3.5}Resizing a Container}{255}
+\contentsline {subsection}{\numberline {9.3.6}Container Operations May Invalidate Iterators}{255}
+\contentsline {section}{\numberline {9.4}How a vector Grows}{255}
+\contentsline {section}{\numberline {9.5}Additional string Operations}{255}
+\contentsline {subsection}{\numberline {9.5.1}Other Ways to Construct strings}{255}
+\contentsline {subsection}{\numberline {9.5.2}Other Ways to Change a string}{255}
+\contentsline {subsection}{\numberline {9.5.3}string Search Operations}{255}
+\contentsline {subsection}{\numberline {9.5.4}The compare Functions}{255}
+\contentsline {subsection}{\numberline {9.5.5}Numeric Conversions}{255}
+\contentsline {section}{\numberline {9.6}Container Adaptors}{255}
+\contentsline {section}{Chapter Summary}{256}
+\contentsline {section}{Defined Terms}{256}
 \ttl@stoptoc {default@9}
-\contentsline {chapter}{\numberline {10}Generic Algorithms}{256}
+\contentsline {chapter}{\numberline {10}Generic Algorithms}{257}
 \ttl@stoptoc {default@9}
 \ttl@starttoc {default@10}
-\contentsline {section}{\numberline {10.1}Overview}{257}
-\contentsline {section}{\numberline {10.2}A First Look at the Algorithms}{257}
-\contentsline {subsection}{\numberline {10.2.1}Read-Only Algorithms}{257}
-\contentsline {subsection}{\numberline {10.2.2}Algorithms That Write Container Elements}{257}
-\contentsline {subsection}{\numberline {10.2.3}Algorithms That Reorder Container Elements}{257}
-\contentsline {section}{\numberline {10.3}Customizing Operations}{257}
-\contentsline {subsection}{\numberline {10.3.1}Passing a Function to an Algorithm}{257}
-\contentsline {subsection}{\numberline {10.3.2}Lambda Expressions}{257}
-\contentsline {subsection}{\numberline {10.3.3}Lambda Captures and Returns}{257}
-\contentsline {subsection}{\numberline {10.3.4}Binding Arguments}{257}
-\contentsline {section}{\numberline {10.4}Revisiting Iterators}{257}
-\contentsline {subsection}{\numberline {10.4.1}Insert Iterators}{257}
-\contentsline {subsection}{\numberline {10.4.2}iostream Iterators}{257}
-\contentsline {subsection}{\numberline {10.4.3}Reverse Iterators}{257}
-\contentsline {section}{\numberline {10.5}Structure of Generic Algorithms}{257}
-\contentsline {subsection}{\numberline {10.5.1}The Five Iterator Categories}{257}
-\contentsline {subsection}{\numberline {10.5.2}Algorithm Parameter Patterns}{257}
-\contentsline {subsection}{\numberline {10.5.3}Algorithm Naming Conventions}{257}
-\contentsline {section}{\numberline {10.6}Container-Specific Algorithms}{257}
-\contentsline {section}{Chapter Summary}{258}
-\contentsline {section}{Defined Terms}{258}
+\contentsline {section}{\numberline {10.1}Overview}{258}
+\contentsline {section}{\numberline {10.2}A First Look at the Algorithms}{258}
+\contentsline {subsection}{\numberline {10.2.1}Read-Only Algorithms}{258}
+\contentsline {subsection}{\numberline {10.2.2}Algorithms That Write Container Elements}{258}
+\contentsline {subsection}{\numberline {10.2.3}Algorithms That Reorder Container Elements}{258}
+\contentsline {section}{\numberline {10.3}Customizing Operations}{258}
+\contentsline {subsection}{\numberline {10.3.1}Passing a Function to an Algorithm}{258}
+\contentsline {subsection}{\numberline {10.3.2}Lambda Expressions}{258}
+\contentsline {subsection}{\numberline {10.3.3}Lambda Captures and Returns}{258}
+\contentsline {subsection}{\numberline {10.3.4}Binding Arguments}{258}
+\contentsline {section}{\numberline {10.4}Revisiting Iterators}{258}
+\contentsline {subsection}{\numberline {10.4.1}Insert Iterators}{258}
+\contentsline {subsection}{\numberline {10.4.2}iostream Iterators}{258}
+\contentsline {subsection}{\numberline {10.4.3}Reverse Iterators}{258}
+\contentsline {section}{\numberline {10.5}Structure of Generic Algorithms}{258}
+\contentsline {subsection}{\numberline {10.5.1}The Five Iterator Categories}{258}
+\contentsline {subsection}{\numberline {10.5.2}Algorithm Parameter Patterns}{258}
+\contentsline {subsection}{\numberline {10.5.3}Algorithm Naming Conventions}{258}
+\contentsline {section}{\numberline {10.6}Container-Specific Algorithms}{258}
+\contentsline {section}{Chapter Summary}{259}
+\contentsline {section}{Defined Terms}{259}
 \ttl@stoptoc {default@10}
-\contentsline {chapter}{\numberline {11}Associative Containers}{259}
+\contentsline {chapter}{\numberline {11}Associative Containers}{260}
 \ttl@stoptoc {default@10}
 \ttl@starttoc {default@11}
-\contentsline {section}{\numberline {11.1}Using an Associative Container}{259}
-\contentsline {section}{\numberline {11.2}Overview of the Associative Containers}{259}
-\contentsline {subsection}{\numberline {11.2.1}Defining an Associative Container}{259}
-\contentsline {paragraph}{Initializing a multimap or multiset}{259}
-\contentsline {subsection}{\numberline {11.2.2}Requirements on Key Type}{259}
-\contentsline {paragraph}{Key Types for Ordered Containers}{259}
-\contentsline {paragraph}{Using a Comparison Function for the Key Type}{259}
-\contentsline {subsection}{\numberline {11.2.3}The pair Type}{259}
-\contentsline {section}{\numberline {11.3}Operations on Associative Containers}{259}
-\contentsline {subsection}{\numberline {11.3.1}Associative Container Iterators}{259}
-\contentsline {subsection}{\numberline {11.3.2}Adding Elements}{259}
-\contentsline {subsection}{\numberline {11.3.3}Erasing Elements}{259}
-\contentsline {subsection}{\numberline {11.3.4}Subscripting a map}{259}
-\contentsline {subsection}{\numberline {11.3.5}Accessing Elements}{259}
-\contentsline {subsection}{\numberline {11.3.6}A Word Transformation Map}{260}
-\contentsline {section}{\numberline {11.4}The Unordered Containers}{260}
-\contentsline {paragraph}{Using an Unordered Container}{260}
-\contentsline {paragraph}{Managing the Buckets}{260}
-\contentsline {paragraph}{Requirements on Key Type for Unordered Containers}{260}
-\contentsline {section}{Chapter Summary}{261}
-\contentsline {section}{Defined Terms}{261}
+\contentsline {section}{\numberline {11.1}Using an Associative Container}{260}
+\contentsline {section}{\numberline {11.2}Overview of the Associative Containers}{260}
+\contentsline {subsection}{\numberline {11.2.1}Defining an Associative Container}{260}
+\contentsline {paragraph}{Initializing a multimap or multiset}{260}
+\contentsline {subsection}{\numberline {11.2.2}Requirements on Key Type}{260}
+\contentsline {paragraph}{Key Types for Ordered Containers}{260}
+\contentsline {paragraph}{Using a Comparison Function for the Key Type}{260}
+\contentsline {subsection}{\numberline {11.2.3}The pair Type}{260}
+\contentsline {section}{\numberline {11.3}Operations on Associative Containers}{260}
+\contentsline {subsection}{\numberline {11.3.1}Associative Container Iterators}{260}
+\contentsline {subsection}{\numberline {11.3.2}Adding Elements}{260}
+\contentsline {subsection}{\numberline {11.3.3}Erasing Elements}{260}
+\contentsline {subsection}{\numberline {11.3.4}Subscripting a map}{260}
+\contentsline {subsection}{\numberline {11.3.5}Accessing Elements}{260}
+\contentsline {subsection}{\numberline {11.3.6}A Word Transformation Map}{261}
+\contentsline {section}{\numberline {11.4}The Unordered Containers}{261}
+\contentsline {paragraph}{Using an Unordered Container}{261}
+\contentsline {paragraph}{Managing the Buckets}{261}
+\contentsline {paragraph}{Requirements on Key Type for Unordered Containers}{261}
+\contentsline {section}{Chapter Summary}{262}
+\contentsline {section}{Defined Terms}{262}
 \ttl@stoptoc {default@11}
-\contentsline {chapter}{\numberline {12}Dynamic Memory}{262}
+\contentsline {chapter}{\numberline {12}Dynamic Memory}{263}
 \ttl@stoptoc {default@11}
 \ttl@starttoc {default@12}
-\contentsline {section}{\numberline {12.1}Dynamic Memory and Smart Pointers}{263}
-\contentsline {subsection}{\numberline {12.1.1}The shared\texttt {\_}ptr Class}{263}
-\contentsline {subsection}{\numberline {12.1.2}Managing Memory Directly}{263}
-\contentsline {paragraph}{Using new to Dynamically Allocate and Initialize Objects}{263}
-\contentsline {paragraph}{Dynamically Allocated const Objects}{263}
-\contentsline {paragraph}{Memory Exhaustion}{263}
-\contentsline {paragraph}{Freeing Dynamic Memory}{263}
-\contentsline {paragraph}{Pointer Values and delete}{263}
-\contentsline {paragraph}{Dynamically Allocated Objects Exist until They Are Freed}{263}
-\contentsline {paragraph}{Resetting the Value of a Pointer after a delete ...}{263}
-\contentsline {paragraph}{...Provides Only Limited Protection}{263}
-\contentsline {subsection}{\numberline {12.1.3}Using shared\texttt {\_}ptr with new}{263}
-\contentsline {subsection}{\numberline {12.1.4}Smart Pointers and Exceptions}{263}
-\contentsline {subsection}{\numberline {12.1.5}unique\texttt {\_}ptr}{263}
-\contentsline {subsection}{\numberline {12.1.6}weak\texttt {\_}ptr}{263}
-\contentsline {section}{\numberline {12.2}Dynamic Arrays}{263}
-\contentsline {subsection}{\numberline {12.2.1}new and Arrays}{263}
-\contentsline {subsection}{\numberline {12.2.2}The allocator Class}{263}
-\contentsline {section}{\numberline {12.3}Using the Library: A Text-Query Program}{263}
-\contentsline {subsection}{\numberline {12.3.1}Design of the Query Program}{263}
-\contentsline {subsection}{\numberline {12.3.2}Defining the Query Program Classes}{263}
-\contentsline {section}{Chapter Summary}{264}
-\contentsline {section}{Defined Terms}{264}
+\contentsline {section}{\numberline {12.1}Dynamic Memory and Smart Pointers}{264}
+\contentsline {subsection}{\numberline {12.1.1}The shared\texttt {\_}ptr Class}{264}
+\contentsline {subsection}{\numberline {12.1.2}Managing Memory Directly}{264}
+\contentsline {paragraph}{Using new to Dynamically Allocate and Initialize Objects}{264}
+\contentsline {paragraph}{Dynamically Allocated const Objects}{264}
+\contentsline {paragraph}{Memory Exhaustion}{264}
+\contentsline {paragraph}{Freeing Dynamic Memory}{264}
+\contentsline {paragraph}{Pointer Values and delete}{264}
+\contentsline {paragraph}{Dynamically Allocated Objects Exist until They Are Freed}{264}
+\contentsline {paragraph}{Resetting the Value of a Pointer after a delete ...}{264}
+\contentsline {paragraph}{...Provides Only Limited Protection}{264}
+\contentsline {subsection}{\numberline {12.1.3}Using shared\texttt {\_}ptr with new}{264}
+\contentsline {subsection}{\numberline {12.1.4}Smart Pointers and Exceptions}{264}
+\contentsline {subsection}{\numberline {12.1.5}unique\texttt {\_}ptr}{264}
+\contentsline {subsection}{\numberline {12.1.6}weak\texttt {\_}ptr}{264}
+\contentsline {section}{\numberline {12.2}Dynamic Arrays}{264}
+\contentsline {subsection}{\numberline {12.2.1}new and Arrays}{264}
+\contentsline {subsection}{\numberline {12.2.2}The allocator Class}{264}
+\contentsline {section}{\numberline {12.3}Using the Library: A Text-Query Program}{264}
+\contentsline {subsection}{\numberline {12.3.1}Design of the Query Program}{264}
+\contentsline {subsection}{\numberline {12.3.2}Defining the Query Program Classes}{264}
+\contentsline {section}{Chapter Summary}{265}
+\contentsline {section}{Defined Terms}{265}
 \ttl@stoptoc {default@12}
-\contentsline {part}{III\hspace {1em}Tools for Class Authors}{265}
+\contentsline {part}{III\hspace {1em}Tools for Class Authors}{266}
 \ttl@stoptoc {parts@2}
 \ttl@starttoc {parts@3}
-\contentsline {chapter}{\numberline {13}Copy Control}{266}
+\contentsline {chapter}{\numberline {13}Copy Control}{267}
 \ttl@stoptoc {default@12}
 \ttl@starttoc {default@13}
-\contentsline {section}{\numberline {13.1}Copy, Assign, and Destroy}{267}
-\contentsline {subsection}{\numberline {13.1.1}The Copy Constructor}{267}
-\contentsline {paragraph}{The Synthesized Copy Constructor}{267}
-\contentsline {subsection}{\numberline {13.1.2}The Copy-Assignment Operator}{267}
-\contentsline {paragraph}{Introducing Overloaded Assignment}{267}
-\contentsline {paragraph}{The Synthesized Copy-Assignment Operator}{267}
-\contentsline {subsection}{\numberline {13.1.3}The Destructor}{267}
-\contentsline {paragraph}{What a Destructor Does}{267}
-\contentsline {paragraph}{When a Destructor Is Called}{267}
-\contentsline {paragraph}{The Synthesized Destructor}{268}
-\contentsline {subsection}{\numberline {13.1.4}The Rule of Three/Five/Zero}{268}
-\contentsline {paragraph}{Rule of three}{268}
-\contentsline {paragraph}{Rule of five}{269}
-\contentsline {paragraph}{Rule of zero}{269}
-\contentsline {paragraph}{Classes That Need Destructors Need Copy and Assignment}{270}
-\contentsline {paragraph}{Classes That Need Copy Need Assignment, and Vice Versa}{271}
-\contentsline {subsection}{\numberline {13.1.5}Using = default}{272}
-\contentsline {subsection}{\numberline {13.1.6}Preventing Copies}{272}
-\contentsline {paragraph}{Defining a Function as Deleted}{272}
-\contentsline {paragraph}{The Destructor Should Not be a Deleted Member}{272}
-\contentsline {paragraph}{The Copy-Control Members May Be Synthesized as Deleted}{272}
-\contentsline {paragraph}{private Copy Control}{272}
-\contentsline {section}{\numberline {13.2}Copy Control and Resource Management}{272}
-\contentsline {subsection}{\numberline {13.2.1}Classes That Act Like Values}{272}
-\contentsline {subsection}{\numberline {13.2.2}Defining Classes That Act Like Pointers}{272}
-\contentsline {section}{\numberline {13.3}Swap}{272}
-\contentsline {section}{\numberline {13.4}A Copy-Control Example}{272}
-\contentsline {section}{\numberline {13.5}Classes That Manage Dynamic Memory}{272}
-\contentsline {section}{\numberline {13.6}Moving Objects}{272}
-\contentsline {subsection}{\numberline {13.6.1}Rvalue References}{272}
-\contentsline {paragraph}{Lvalues Persist; Rvalues Are Ephemeral}{272}
-\contentsline {paragraph}{Variables Are Lvalues}{272}
-\contentsline {paragraph}{The Library move Function}{272}
-\contentsline {subsection}{\numberline {13.6.2}Move Constructor and Move Assignment}{272}
-\contentsline {paragraph}{Move Operations, Library Containers, and Exceptions}{272}
-\contentsline {paragraph}{Move-Assignment Operator}{272}
-\contentsline {paragraph}{A Moved-from Object Must Be Destructible}{272}
-\contentsline {paragraph}{The Synthesized Move Operations}{272}
-\contentsline {paragraph}{Rvalues Are Moved, Lvalues Are Copied ...}{272}
-\contentsline {paragraph}{...But Rvalues Are Copied If There Is No Move Constructor}{272}
-\contentsline {paragraph}{Copy-and-Swap Assignment Operators and Move}{272}
-\contentsline {paragraph}{Move Operations for the Message Class}{272}
-\contentsline {paragraph}{Move Iterators}{272}
-\contentsline {subsection}{\numberline {13.6.3}Rvalue References and Member Functions}{272}
-\contentsline {paragraph}{Rvalue and Lvalue Reference Member Functions}{272}
-\contentsline {section}{Chapter Summary}{273}
-\contentsline {section}{Defined Terms}{273}
+\contentsline {section}{\numberline {13.1}Copy, Assign, and Destroy}{268}
+\contentsline {subsection}{\numberline {13.1.1}The Copy Constructor}{268}
+\contentsline {paragraph}{The Synthesized Copy Constructor}{268}
+\contentsline {subsection}{\numberline {13.1.2}The Copy-Assignment Operator}{268}
+\contentsline {paragraph}{Introducing Overloaded Assignment}{268}
+\contentsline {paragraph}{The Synthesized Copy-Assignment Operator}{268}
+\contentsline {subsection}{\numberline {13.1.3}The Destructor}{268}
+\contentsline {paragraph}{What a Destructor Does}{268}
+\contentsline {paragraph}{When a Destructor Is Called}{268}
+\contentsline {paragraph}{The Synthesized Destructor}{269}
+\contentsline {subsection}{\numberline {13.1.4}The Rule of Three/Five/Zero}{269}
+\contentsline {paragraph}{Rule of three}{269}
+\contentsline {paragraph}{Rule of five}{270}
+\contentsline {paragraph}{Rule of zero}{270}
+\contentsline {paragraph}{Classes That Need Destructors Need Copy and Assignment}{271}
+\contentsline {paragraph}{Classes That Need Copy Need Assignment, and Vice Versa}{272}
+\contentsline {subsection}{\numberline {13.1.5}Using = default}{273}
+\contentsline {subsection}{\numberline {13.1.6}Preventing Copies}{273}
+\contentsline {paragraph}{Defining a Function as Deleted}{273}
+\contentsline {paragraph}{The Destructor Should Not be a Deleted Member}{273}
+\contentsline {paragraph}{The Copy-Control Members May Be Synthesized as Deleted}{273}
+\contentsline {paragraph}{private Copy Control}{273}
+\contentsline {section}{\numberline {13.2}Copy Control and Resource Management}{273}
+\contentsline {subsection}{\numberline {13.2.1}Classes That Act Like Values}{273}
+\contentsline {subsection}{\numberline {13.2.2}Defining Classes That Act Like Pointers}{273}
+\contentsline {section}{\numberline {13.3}Swap}{273}
+\contentsline {section}{\numberline {13.4}A Copy-Control Example}{273}
+\contentsline {section}{\numberline {13.5}Classes That Manage Dynamic Memory}{273}
+\contentsline {section}{\numberline {13.6}Moving Objects}{273}
+\contentsline {subsection}{\numberline {13.6.1}Rvalue References}{273}
+\contentsline {paragraph}{Lvalues Persist; Rvalues Are Ephemeral}{273}
+\contentsline {paragraph}{Variables Are Lvalues}{273}
+\contentsline {paragraph}{The Library move Function}{273}
+\contentsline {subsection}{\numberline {13.6.2}Move Constructor and Move Assignment}{273}
+\contentsline {paragraph}{Move Operations, Library Containers, and Exceptions}{273}
+\contentsline {paragraph}{Move-Assignment Operator}{273}
+\contentsline {paragraph}{A Moved-from Object Must Be Destructible}{273}
+\contentsline {paragraph}{The Synthesized Move Operations}{273}
+\contentsline {paragraph}{Rvalues Are Moved, Lvalues Are Copied ...}{273}
+\contentsline {paragraph}{...But Rvalues Are Copied If There Is No Move Constructor}{273}
+\contentsline {paragraph}{Copy-and-Swap Assignment Operators and Move}{273}
+\contentsline {paragraph}{Move Operations for the Message Class}{273}
+\contentsline {paragraph}{Move Iterators}{273}
+\contentsline {subsection}{\numberline {13.6.3}Rvalue References and Member Functions}{273}
+\contentsline {paragraph}{Rvalue and Lvalue Reference Member Functions}{273}
+\contentsline {section}{Chapter Summary}{274}
+\contentsline {section}{Defined Terms}{274}
 \ttl@stoptoc {default@13}
-\contentsline {chapter}{\numberline {14}Overloaded Operations and Conversions}{274}
+\contentsline {chapter}{\numberline {14}Overloaded Operations and Conversions}{275}
 \ttl@stoptoc {default@13}
 \ttl@starttoc {default@14}
-\contentsline {section}{\numberline {14.1}Basic Concepts}{275}
-\contentsline {paragraph}{Choosing Member or Nonmember Implementation}{275}
-\contentsline {section}{\numberline {14.2}Input and Output Operators}{275}
-\contentsline {subsection}{\numberline {14.2.1}Overloading the Output Operator <<}{275}
-\contentsline {subsection}{\numberline {14.2.2}Overloading the Input Operator >>}{275}
-\contentsline {section}{\numberline {14.3}Arithmetic and Relational Operators}{275}
-\contentsline {subsection}{\numberline {14.3.1}Equality Operators}{275}
-\contentsline {subsection}{\numberline {14.3.2}Relational Operators}{275}
-\contentsline {section}{\numberline {14.4}Assignment Operators}{275}
-\contentsline {section}{\numberline {14.5}Subscript Operator}{275}
-\contentsline {section}{\numberline {14.6}Increment and Decrement Operators}{275}
-\contentsline {section}{\numberline {14.7}Member Access Operators}{275}
-\contentsline {section}{\numberline {14.8}Function-Call Operator}{275}
-\contentsline {subsection}{\numberline {14.8.1}Lambdas Are Function Objects}{275}
-\contentsline {subsection}{\numberline {14.8.2}Library-Defined Function Objects}{275}
-\contentsline {subsection}{\numberline {14.8.3}Callable Objects and function}{275}
-\contentsline {section}{\numberline {14.9}Overloading, Conversions, and Operators}{275}
-\contentsline {subsection}{\numberline {14.9.1}Conversion Operators}{275}
-\contentsline {subsection}{\numberline {14.9.2}Avoiding Ambiguous Conversions}{275}
-\contentsline {subsection}{\numberline {14.9.3}Function Matching and Overloaded Operators}{275}
-\contentsline {section}{Chapter Summary}{276}
-\contentsline {section}{Defined Terms}{276}
+\contentsline {section}{\numberline {14.1}Basic Concepts}{276}
+\contentsline {paragraph}{Choosing Member or Nonmember Implementation}{276}
+\contentsline {section}{\numberline {14.2}Input and Output Operators}{276}
+\contentsline {subsection}{\numberline {14.2.1}Overloading the Output Operator <<}{276}
+\contentsline {subsection}{\numberline {14.2.2}Overloading the Input Operator >>}{276}
+\contentsline {section}{\numberline {14.3}Arithmetic and Relational Operators}{276}
+\contentsline {subsection}{\numberline {14.3.1}Equality Operators}{276}
+\contentsline {subsection}{\numberline {14.3.2}Relational Operators}{276}
+\contentsline {section}{\numberline {14.4}Assignment Operators}{276}
+\contentsline {section}{\numberline {14.5}Subscript Operator}{276}
+\contentsline {section}{\numberline {14.6}Increment and Decrement Operators}{276}
+\contentsline {section}{\numberline {14.7}Member Access Operators}{276}
+\contentsline {section}{\numberline {14.8}Function-Call Operator}{276}
+\contentsline {subsection}{\numberline {14.8.1}Lambdas Are Function Objects}{276}
+\contentsline {subsection}{\numberline {14.8.2}Library-Defined Function Objects}{276}
+\contentsline {subsection}{\numberline {14.8.3}Callable Objects and function}{276}
+\contentsline {section}{\numberline {14.9}Overloading, Conversions, and Operators}{276}
+\contentsline {subsection}{\numberline {14.9.1}Conversion Operators}{276}
+\contentsline {subsection}{\numberline {14.9.2}Avoiding Ambiguous Conversions}{276}
+\contentsline {subsection}{\numberline {14.9.3}Function Matching and Overloaded Operators}{276}
+\contentsline {section}{Chapter Summary}{277}
+\contentsline {section}{Defined Terms}{277}
 \ttl@stoptoc {default@14}
-\contentsline {chapter}{\numberline {15}Object-Oriented Programming}{277}
+\contentsline {chapter}{\numberline {15}Object-Oriented Programming}{278}
 \ttl@stoptoc {default@14}
 \ttl@starttoc {default@15}
-\contentsline {section}{\numberline {15.1}OOP: An Overview}{278}
-\contentsline {paragraph}{Inheritance}{278}
-\contentsline {paragraph}{Dynamic Binding}{278}
-\contentsline {section}{\numberline {15.2}Defining Base and Derived Classes}{279}
-\contentsline {subsection}{\numberline {15.2.1}Defining a Base Class}{279}
-\contentsline {paragraph}{Member Functions and Inheritance}{280}
-\contentsline {paragraph}{Access Control and Inheritance}{280}
-\contentsline {subsection}{\numberline {15.2.2}Defining a Derived Class}{280}
-\contentsline {paragraph}{Virtual Functions in the Derived Class}{281}
-\contentsline {paragraph}{Derived-Class Objects and the Derived-to-Base Conversion}{281}
-\contentsline {paragraph}{Derived-Class Constructors}{282}
-\contentsline {paragraph}{Using Members of the Base Class from the Derived Class}{282}
-\contentsline {paragraph}{Inheritance and static Members}{283}
-\contentsline {paragraph}{Declarations of Derived Classes}{283}
-\contentsline {paragraph}{Classes Used as a Base Class}{283}
-\contentsline {paragraph}{Preventing Inheritance}{284}
-\contentsline {subsection}{\numberline {15.2.3}Conversions and Inheritance}{284}
-\contentsline {paragraph}{Static Type and Dynamic Type}{284}
-\contentsline {paragraph}{There Is No Implicit Conversion from Base to Derived ...}{285}
-\contentsline {paragraph}{...and No Conversion between Objects}{285}
-\contentsline {section}{\numberline {15.3}Virtual Functions}{286}
-\contentsline {paragraph}{Calls to Virtual Functions May Be Resolved at Run Time}{286}
-\contentsline {paragraph}{Virtual Functions in a Derived Class}{287}
-\contentsline {paragraph}{The final and override Specifiers}{287}
-\contentsline {paragraph}{Virtual Functions and Default Arguments}{288}
-\contentsline {paragraph}{Circumventing the Virtual Mechanism}{288}
-\contentsline {section}{\numberline {15.4}Abstract Base Classes}{290}
-\contentsline {paragraph}{Pure Virtual Functions}{290}
-\contentsline {paragraph}{Classes with Pure Virtuals Are Abstract Base Classes}{290}
-\contentsline {paragraph}{A Derived Class Constructor Initializes Its Direct Base Class Only}{291}
-\contentsline {section}{\numberline {15.5}Access Control and Inheritance}{291}
-\contentsline {paragraph}{protected Members}{291}
-\contentsline {paragraph}{public, private, and protected Inheritance}{292}
-\contentsline {paragraph}{Accessibility of Derived-to-Base Conversion}{293}
-\contentsline {paragraph}{Friendship and Inheritance}{294}
-\contentsline {paragraph}{Exempting Individual Members}{295}
-\contentsline {paragraph}{Default Inheritance Protection Levels}{295}
-\contentsline {section}{\numberline {15.6}Class Scope under Inheritance}{296}
-\contentsline {paragraph}{Name Lookup Happens at Compile Time}{296}
-\contentsline {paragraph}{Name Collisions and Inheritance}{297}
-\contentsline {paragraph}{Using the Scope Operator to Use Hidden Members}{297}
-\contentsline {paragraph}{As Usual, Name Lookup Happens before Type Checking}{298}
-\contentsline {paragraph}{Virtual Functions and Scope}{298}
-\contentsline {paragraph}{Calling a Hidden Virtual through the Base Class}{299}
-\contentsline {paragraph}{Overriding Overloaded Functions}{299}
-\contentsline {section}{\numberline {15.7}Constructors and Copy Control}{300}
-\contentsline {subsection}{\numberline {15.7.1}Virtual Destructors}{300}
-\contentsline {paragraph}{Virtual Destructors Turn Off Synthesized Move}{301}
-\contentsline {subsection}{\numberline {15.7.2}Synthesized Copy Control and Inheritance}{301}
-\contentsline {paragraph}{Base Classes and Deleted Copy Control in the Derived}{301}
-\contentsline {paragraph}{Move Operations and Inheritance}{302}
-\contentsline {subsection}{\numberline {15.7.3}Derived-Class Copy-Control Members}{302}
-\contentsline {paragraph}{Defining a Derived Copy or Move Constructor}{303}
-\contentsline {paragraph}{Derived-Class Assignment Operator}{303}
-\contentsline {paragraph}{Derived-Class Destructor}{304}
-\contentsline {paragraph}{Calls to Virtuals in Constructors and Destructors}{304}
-\contentsline {subsection}{\numberline {15.7.4}Inherited Constructors}{304}
-\contentsline {paragraph}{Characteristics of an Inherited Constructor}{305}
-\contentsline {section}{\numberline {15.8}Containers and Inheritance}{305}
-\contentsline {paragraph}{Put (Smart) Pointers, Not Objects, in Containers}{306}
-\contentsline {subsection}{\numberline {15.8.1}Writing a Basket Class}{306}
-\contentsline {paragraph}{Defining the Members of Basket}{307}
-\contentsline {paragraph}{Hiding the Pointers}{307}
-\contentsline {paragraph}{Simulating Virtual Copy}{308}
-\contentsline {section}{\numberline {15.9}Text Queries Revisited}{309}
-\contentsline {subsection}{\numberline {15.9.1}An Object-Oriented Solution}{310}
-\contentsline {subsection}{\numberline {15.9.2}The Query\texttt {\_}base and Query Classes}{310}
-\contentsline {subsection}{\numberline {15.9.3}The Derived Classes}{310}
-\contentsline {subsection}{\numberline {15.9.4}The eval Functions}{310}
-\contentsline {section}{Chapter Summary}{311}
-\contentsline {section}{Defined Terms}{311}
+\contentsline {section}{\numberline {15.1}OOP: An Overview}{279}
+\contentsline {paragraph}{Inheritance}{279}
+\contentsline {paragraph}{Dynamic Binding}{279}
+\contentsline {section}{\numberline {15.2}Defining Base and Derived Classes}{280}
+\contentsline {subsection}{\numberline {15.2.1}Defining a Base Class}{280}
+\contentsline {paragraph}{Member Functions and Inheritance}{281}
+\contentsline {paragraph}{Access Control and Inheritance}{281}
+\contentsline {subsection}{\numberline {15.2.2}Defining a Derived Class}{281}
+\contentsline {paragraph}{Virtual Functions in the Derived Class}{282}
+\contentsline {paragraph}{Derived-Class Objects and the Derived-to-Base Conversion}{282}
+\contentsline {paragraph}{Derived-Class Constructors}{283}
+\contentsline {paragraph}{Using Members of the Base Class from the Derived Class}{283}
+\contentsline {paragraph}{Inheritance and static Members}{284}
+\contentsline {paragraph}{Declarations of Derived Classes}{284}
+\contentsline {paragraph}{Classes Used as a Base Class}{284}
+\contentsline {paragraph}{Preventing Inheritance}{285}
+\contentsline {subsection}{\numberline {15.2.3}Conversions and Inheritance}{285}
+\contentsline {paragraph}{Static Type and Dynamic Type}{285}
+\contentsline {paragraph}{There Is No Implicit Conversion from Base to Derived ...}{286}
+\contentsline {paragraph}{...and No Conversion between Objects}{286}
+\contentsline {section}{\numberline {15.3}Virtual Functions}{287}
+\contentsline {paragraph}{Calls to Virtual Functions May Be Resolved at Run Time}{287}
+\contentsline {paragraph}{Virtual Functions in a Derived Class}{288}
+\contentsline {paragraph}{The final and override Specifiers}{288}
+\contentsline {paragraph}{Virtual Functions and Default Arguments}{289}
+\contentsline {paragraph}{Circumventing the Virtual Mechanism}{289}
+\contentsline {section}{\numberline {15.4}Abstract Base Classes}{291}
+\contentsline {paragraph}{Pure Virtual Functions}{291}
+\contentsline {paragraph}{Classes with Pure Virtuals Are Abstract Base Classes}{291}
+\contentsline {paragraph}{A Derived Class Constructor Initializes Its Direct Base Class Only}{292}
+\contentsline {section}{\numberline {15.5}Access Control and Inheritance}{292}
+\contentsline {paragraph}{protected Members}{292}
+\contentsline {paragraph}{public, private, and protected Inheritance}{293}
+\contentsline {paragraph}{Accessibility of Derived-to-Base Conversion}{294}
+\contentsline {paragraph}{Friendship and Inheritance}{295}
+\contentsline {paragraph}{Exempting Individual Members}{296}
+\contentsline {paragraph}{Default Inheritance Protection Levels}{296}
+\contentsline {section}{\numberline {15.6}Class Scope under Inheritance}{297}
+\contentsline {paragraph}{Name Lookup Happens at Compile Time}{297}
+\contentsline {paragraph}{Name Collisions and Inheritance}{298}
+\contentsline {paragraph}{Using the Scope Operator to Use Hidden Members}{298}
+\contentsline {paragraph}{As Usual, Name Lookup Happens before Type Checking}{299}
+\contentsline {paragraph}{Virtual Functions and Scope}{299}
+\contentsline {paragraph}{Calling a Hidden Virtual through the Base Class}{300}
+\contentsline {paragraph}{Overriding Overloaded Functions}{300}
+\contentsline {section}{\numberline {15.7}Constructors and Copy Control}{301}
+\contentsline {subsection}{\numberline {15.7.1}Virtual Destructors}{301}
+\contentsline {paragraph}{Virtual Destructors Turn Off Synthesized Move}{302}
+\contentsline {subsection}{\numberline {15.7.2}Synthesized Copy Control and Inheritance}{302}
+\contentsline {paragraph}{Base Classes and Deleted Copy Control in the Derived}{302}
+\contentsline {paragraph}{Move Operations and Inheritance}{303}
+\contentsline {subsection}{\numberline {15.7.3}Derived-Class Copy-Control Members}{303}
+\contentsline {paragraph}{Defining a Derived Copy or Move Constructor}{304}
+\contentsline {paragraph}{Derived-Class Assignment Operator}{304}
+\contentsline {paragraph}{Derived-Class Destructor}{305}
+\contentsline {paragraph}{Calls to Virtuals in Constructors and Destructors}{305}
+\contentsline {subsection}{\numberline {15.7.4}Inherited Constructors}{305}
+\contentsline {paragraph}{Characteristics of an Inherited Constructor}{306}
+\contentsline {section}{\numberline {15.8}Containers and Inheritance}{306}
+\contentsline {paragraph}{Put (Smart) Pointers, Not Objects, in Containers}{307}
+\contentsline {subsection}{\numberline {15.8.1}Writing a Basket Class}{307}
+\contentsline {paragraph}{Defining the Members of Basket}{308}
+\contentsline {paragraph}{Hiding the Pointers}{308}
+\contentsline {paragraph}{Simulating Virtual Copy}{309}
+\contentsline {section}{\numberline {15.9}Text Queries Revisited}{310}
+\contentsline {subsection}{\numberline {15.9.1}An Object-Oriented Solution}{311}
+\contentsline {subsection}{\numberline {15.9.2}The Query\texttt {\_}base and Query Classes}{311}
+\contentsline {subsection}{\numberline {15.9.3}The Derived Classes}{311}
+\contentsline {subsection}{\numberline {15.9.4}The eval Functions}{311}
+\contentsline {section}{Chapter Summary}{312}
+\contentsline {section}{Defined Terms}{312}
 \ttl@stoptoc {default@15}
-\contentsline {chapter}{\numberline {16}Templates and Generic Programming}{312}
+\contentsline {chapter}{\numberline {16}Templates and Generic Programming}{313}
 \ttl@stoptoc {default@15}
 \ttl@starttoc {default@16}
-\contentsline {section}{\numberline {16.1}Defining a Template}{313}
-\contentsline {subsection}{\numberline {16.1.1}Function Templates}{313}
-\contentsline {paragraph}{Instantiating a Function Template}{313}
-\contentsline {paragraph}{Template Type Parameters}{313}
-\contentsline {paragraph}{Nontype Template Parameters}{313}
-\contentsline {paragraph}{inline and constexpr Function Templates}{313}
-\contentsline {paragraph}{Writing Type-Independent Code}{313}
-\contentsline {paragraph}{Template Compilation}{313}
-\contentsline {paragraph}{Compilation Errors Are Mostly Reported during Instantiation}{313}
-\contentsline {subsection}{\numberline {16.1.2}Class Templates}{313}
-\contentsline {subsection}{\numberline {16.1.3}Template Parameters}{313}
-\contentsline {subsection}{\numberline {16.1.4}Member Templates}{313}
-\contentsline {subsection}{\numberline {16.1.5}Controlling Instantiations}{313}
-\contentsline {subsection}{\numberline {16.1.6}Efficiency and Flexibility}{313}
-\contentsline {section}{\numberline {16.2}Template Argument Deduction}{313}
-\contentsline {subsection}{\numberline {16.2.1}Conversions and Template Type Parameters}{313}
-\contentsline {subsection}{\numberline {16.2.2}Function-Template Explicit Arguments}{313}
-\contentsline {subsection}{\numberline {16.2.3}Trailing Return Types and Type Transformation}{313}
-\contentsline {subsection}{\numberline {16.2.4}Function Pointers and Argument Deduction}{313}
-\contentsline {subsection}{\numberline {16.2.5}Template Argument Deduction and References}{313}
-\contentsline {subsection}{\numberline {16.2.6}Understanding std::move}{313}
-\contentsline {subsection}{\numberline {16.2.7}Forwarding}{313}
-\contentsline {section}{\numberline {16.3}Overloading and Templates}{313}
-\contentsline {section}{\numberline {16.4}Variadic Templates}{313}
-\contentsline {subsection}{\numberline {16.4.1}Writing a Variadic Function Template}{313}
-\contentsline {subsection}{\numberline {16.4.2}Pack Expansion}{313}
-\contentsline {subsection}{\numberline {16.4.3}Forwarding Parameter Packs}{313}
-\contentsline {section}{\numberline {16.5}Template Specializations}{313}
-\contentsline {section}{Chapter Summary}{314}
-\contentsline {section}{Defined Terms}{314}
+\contentsline {section}{\numberline {16.1}Defining a Template}{314}
+\contentsline {subsection}{\numberline {16.1.1}Function Templates}{314}
+\contentsline {paragraph}{Instantiating a Function Template}{314}
+\contentsline {paragraph}{Template Type Parameters}{314}
+\contentsline {paragraph}{Nontype Template Parameters}{314}
+\contentsline {paragraph}{inline and constexpr Function Templates}{314}
+\contentsline {paragraph}{Writing Type-Independent Code}{314}
+\contentsline {paragraph}{Template Compilation}{314}
+\contentsline {paragraph}{Compilation Errors Are Mostly Reported during Instantiation}{314}
+\contentsline {subsection}{\numberline {16.1.2}Class Templates}{314}
+\contentsline {subsection}{\numberline {16.1.3}Template Parameters}{314}
+\contentsline {subsection}{\numberline {16.1.4}Member Templates}{314}
+\contentsline {subsection}{\numberline {16.1.5}Controlling Instantiations}{314}
+\contentsline {subsection}{\numberline {16.1.6}Efficiency and Flexibility}{314}
+\contentsline {section}{\numberline {16.2}Template Argument Deduction}{314}
+\contentsline {subsection}{\numberline {16.2.1}Conversions and Template Type Parameters}{314}
+\contentsline {subsection}{\numberline {16.2.2}Function-Template Explicit Arguments}{314}
+\contentsline {subsection}{\numberline {16.2.3}Trailing Return Types and Type Transformation}{314}
+\contentsline {subsection}{\numberline {16.2.4}Function Pointers and Argument Deduction}{314}
+\contentsline {subsection}{\numberline {16.2.5}Template Argument Deduction and References}{314}
+\contentsline {subsection}{\numberline {16.2.6}Understanding std::move}{314}
+\contentsline {subsection}{\numberline {16.2.7}Forwarding}{314}
+\contentsline {section}{\numberline {16.3}Overloading and Templates}{314}
+\contentsline {section}{\numberline {16.4}Variadic Templates}{314}
+\contentsline {subsection}{\numberline {16.4.1}Writing a Variadic Function Template}{314}
+\contentsline {subsection}{\numberline {16.4.2}Pack Expansion}{314}
+\contentsline {subsection}{\numberline {16.4.3}Forwarding Parameter Packs}{314}
+\contentsline {section}{\numberline {16.5}Template Specializations}{314}
+\contentsline {section}{Chapter Summary}{315}
+\contentsline {section}{Defined Terms}{315}
 \ttl@stoptoc {default@16}
-\contentsline {part}{IV\hspace {1em}Advanced Topics}{315}
+\contentsline {part}{IV\hspace {1em}Advanced Topics}{316}
 \ttl@stoptoc {parts@3}
 \ttl@starttoc {parts@4}
-\contentsline {chapter}{\numberline {17}Specialized Library Facilities}{316}
+\contentsline {chapter}{\numberline {17}Specialized Library Facilities}{317}
 \ttl@stoptoc {default@16}
 \ttl@starttoc {default@17}
-\contentsline {section}{\numberline {17.1}The tuple Type}{317}
-\contentsline {subsection}{\numberline {17.1.1}Defining and Initializing tuples}{317}
-\contentsline {subsection}{\numberline {17.1.2}Using a tuple to Return Multiple Values}{317}
-\contentsline {section}{\numberline {17.2}The bitset Type}{317}
-\contentsline {subsection}{\numberline {17.2.1}Defining and Initializing bitsets}{317}
-\contentsline {subsection}{\numberline {17.2.2}Operations on bitsets}{317}
-\contentsline {section}{\numberline {17.3}Regular Expressions}{317}
-\contentsline {subsection}{\numberline {17.3.1}Using the Regular Expression Library}{317}
-\contentsline {subsection}{\numberline {17.3.2}The Match and Regex Iterator Types}{317}
-\contentsline {subsection}{\numberline {17.3.3}Using Subexpressions}{317}
-\contentsline {subsection}{\numberline {17.3.4}Using regex\texttt {\_}replace}{317}
-\contentsline {section}{\numberline {17.4}Random Numbers}{317}
-\contentsline {subsection}{\numberline {17.4.1}Random-Number Engines and Distribution}{317}
-\contentsline {subsection}{\numberline {17.4.2}Other Kinds of Distributions}{317}
-\contentsline {section}{\numberline {17.5}The IO Library Revisited}{317}
-\contentsline {subsection}{\numberline {17.5.1}Formatted Input and Output}{317}
-\contentsline {subsection}{\numberline {17.5.2}Unformatted Input/Output Operations}{317}
-\contentsline {subsection}{\numberline {17.5.3}Random Access to a Stream}{317}
-\contentsline {paragraph}{Seek and Tell Functions}{317}
-\contentsline {paragraph}{There Is Only One Marker}{317}
-\contentsline {paragraph}{Repositioning the Marker}{317}
-\contentsline {paragraph}{Accessing the Marker}{317}
-\contentsline {paragraph}{Reading and Writing to the Same File}{317}
-\contentsline {section}{Chapter Summary}{318}
-\contentsline {section}{Defined Terms}{318}
+\contentsline {section}{\numberline {17.1}The tuple Type}{318}
+\contentsline {subsection}{\numberline {17.1.1}Defining and Initializing tuples}{318}
+\contentsline {subsection}{\numberline {17.1.2}Using a tuple to Return Multiple Values}{318}
+\contentsline {section}{\numberline {17.2}The bitset Type}{318}
+\contentsline {subsection}{\numberline {17.2.1}Defining and Initializing bitsets}{318}
+\contentsline {subsection}{\numberline {17.2.2}Operations on bitsets}{318}
+\contentsline {section}{\numberline {17.3}Regular Expressions}{318}
+\contentsline {subsection}{\numberline {17.3.1}Using the Regular Expression Library}{318}
+\contentsline {subsection}{\numberline {17.3.2}The Match and Regex Iterator Types}{318}
+\contentsline {subsection}{\numberline {17.3.3}Using Subexpressions}{318}
+\contentsline {subsection}{\numberline {17.3.4}Using regex\texttt {\_}replace}{318}
+\contentsline {section}{\numberline {17.4}Random Numbers}{318}
+\contentsline {subsection}{\numberline {17.4.1}Random-Number Engines and Distribution}{318}
+\contentsline {subsection}{\numberline {17.4.2}Other Kinds of Distributions}{318}
+\contentsline {section}{\numberline {17.5}The IO Library Revisited}{318}
+\contentsline {subsection}{\numberline {17.5.1}Formatted Input and Output}{318}
+\contentsline {subsection}{\numberline {17.5.2}Unformatted Input/Output Operations}{318}
+\contentsline {subsection}{\numberline {17.5.3}Random Access to a Stream}{318}
+\contentsline {paragraph}{Seek and Tell Functions}{318}
+\contentsline {paragraph}{There Is Only One Marker}{318}
+\contentsline {paragraph}{Repositioning the Marker}{318}
+\contentsline {paragraph}{Accessing the Marker}{318}
+\contentsline {paragraph}{Reading and Writing to the Same File}{318}
+\contentsline {section}{Chapter Summary}{319}
+\contentsline {section}{Defined Terms}{319}
 \ttl@stoptoc {default@17}
-\contentsline {chapter}{\numberline {18}Tools for Large Programs}{319}
+\contentsline {chapter}{\numberline {18}Tools for Large Programs}{320}
 \ttl@stoptoc {default@17}
 \ttl@starttoc {default@18}
-\contentsline {section}{\numberline {18.1}Exception Handling}{319}
-\contentsline {subsection}{\numberline {18.1.1}Throwing an Exception}{319}
-\contentsline {subsection}{\numberline {18.1.2}Catching an Exception}{319}
-\contentsline {subsection}{\numberline {18.1.3}Function try Blocks and Constructors}{319}
-\contentsline {subsection}{\numberline {18.1.4}The noexcept Exception Specification}{319}
-\contentsline {subsection}{\numberline {18.1.5}Exception Class Hierarchies}{319}
-\contentsline {section}{\numberline {18.2}Namespaces}{319}
-\contentsline {subsection}{\numberline {18.2.1}Namespace Definitions}{319}
-\contentsline {subsection}{\numberline {18.2.2}Using Namespace Members}{319}
-\contentsline {subsection}{\numberline {18.2.3}Classes, Namespaces, and Scope}{319}
-\contentsline {subsection}{\numberline {18.2.4}Overloading and Namespaces}{319}
-\contentsline {section}{\numberline {18.3}Multiple and Virtual Inheritance}{319}
-\contentsline {subsection}{\numberline {18.3.1}Multiple Inheritance}{319}
-\contentsline {subsection}{\numberline {18.3.2}Multiple Inheritance}{319}
-\contentsline {subsection}{\numberline {18.3.3}Class Scope under Multiple Inheritance}{319}
-\contentsline {subsection}{\numberline {18.3.4}Virtual Inheritance}{319}
-\contentsline {subsection}{\numberline {18.3.5}Constructors and Virtual Inheritance}{319}
-\contentsline {section}{Chapter Summary}{320}
-\contentsline {section}{Defined Terms}{320}
+\contentsline {section}{\numberline {18.1}Exception Handling}{320}
+\contentsline {subsection}{\numberline {18.1.1}Throwing an Exception}{320}
+\contentsline {subsection}{\numberline {18.1.2}Catching an Exception}{320}
+\contentsline {subsection}{\numberline {18.1.3}Function try Blocks and Constructors}{320}
+\contentsline {subsection}{\numberline {18.1.4}The noexcept Exception Specification}{320}
+\contentsline {subsection}{\numberline {18.1.5}Exception Class Hierarchies}{320}
+\contentsline {section}{\numberline {18.2}Namespaces}{320}
+\contentsline {subsection}{\numberline {18.2.1}Namespace Definitions}{320}
+\contentsline {subsection}{\numberline {18.2.2}Using Namespace Members}{320}
+\contentsline {subsection}{\numberline {18.2.3}Classes, Namespaces, and Scope}{320}
+\contentsline {subsection}{\numberline {18.2.4}Overloading and Namespaces}{320}
+\contentsline {section}{\numberline {18.3}Multiple and Virtual Inheritance}{320}
+\contentsline {subsection}{\numberline {18.3.1}Multiple Inheritance}{320}
+\contentsline {subsection}{\numberline {18.3.2}Multiple Inheritance}{320}
+\contentsline {subsection}{\numberline {18.3.3}Class Scope under Multiple Inheritance}{320}
+\contentsline {subsection}{\numberline {18.3.4}Virtual Inheritance}{320}
+\contentsline {subsection}{\numberline {18.3.5}Constructors and Virtual Inheritance}{320}
+\contentsline {section}{Chapter Summary}{321}
+\contentsline {section}{Defined Terms}{321}
 \ttl@stoptoc {default@18}
-\contentsline {chapter}{\numberline {19}Specialized Tools and Techniques}{321}
+\contentsline {chapter}{\numberline {19}Specialized Tools and Techniques}{322}
 \ttl@stoptoc {default@18}
 \ttl@starttoc {default@19}
-\contentsline {section}{\numberline {19.1}Controlling Memory Allocation}{322}
-\contentsline {subsection}{\numberline {19.1.1}Overloading new and delete}{322}
-\contentsline {subsection}{\numberline {19.1.2}Placement new Expressions}{322}
-\contentsline {section}{\numberline {19.2}Run-Time Type Identification}{322}
-\contentsline {subsection}{\numberline {19.2.1}The dynamic\texttt {\_}cast Operator}{322}
-\contentsline {subsection}{\numberline {19.2.2}The typeid Operator}{322}
-\contentsline {subsection}{\numberline {19.2.3}Using RTTI}{322}
-\contentsline {subsection}{\numberline {19.2.4}The type\texttt {\_}info Class}{322}
-\contentsline {section}{\numberline {19.3}Enumerations}{322}
-\contentsline {section}{\numberline {19.4}Pointer to Class Member}{322}
-\contentsline {subsection}{\numberline {19.4.1}Pointers to Data Members}{322}
-\contentsline {subsection}{\numberline {19.4.2}Pointers to Member Functions}{322}
-\contentsline {subsection}{\numberline {19.4.3}Using Member Functions as Callable Objects}{322}
-\contentsline {section}{\numberline {19.5}Nested Classes}{322}
-\contentsline {section}{\numberline {19.6}union: A Space-Saving Class}{322}
-\contentsline {section}{\numberline {19.7}Local Classes}{322}
-\contentsline {section}{\numberline {19.8}Inherently Nonportable Features}{322}
-\contentsline {subsection}{\numberline {19.8.1}Bit-fields}{322}
-\contentsline {subsection}{\numberline {19.8.2}volatile Qualifier}{322}
-\contentsline {subsection}{\numberline {19.8.3}Linkage Directives: extern "C"}{322}
-\contentsline {section}{Chapter Summary}{323}
-\contentsline {section}{Defined Terms}{323}
+\contentsline {section}{\numberline {19.1}Controlling Memory Allocation}{323}
+\contentsline {subsection}{\numberline {19.1.1}Overloading new and delete}{323}
+\contentsline {subsection}{\numberline {19.1.2}Placement new Expressions}{323}
+\contentsline {section}{\numberline {19.2}Run-Time Type Identification}{323}
+\contentsline {subsection}{\numberline {19.2.1}The dynamic\texttt {\_}cast Operator}{323}
+\contentsline {subsection}{\numberline {19.2.2}The typeid Operator}{323}
+\contentsline {subsection}{\numberline {19.2.3}Using RTTI}{323}
+\contentsline {subsection}{\numberline {19.2.4}The type\texttt {\_}info Class}{323}
+\contentsline {section}{\numberline {19.3}Enumerations}{323}
+\contentsline {section}{\numberline {19.4}Pointer to Class Member}{323}
+\contentsline {subsection}{\numberline {19.4.1}Pointers to Data Members}{323}
+\contentsline {subsection}{\numberline {19.4.2}Pointers to Member Functions}{323}
+\contentsline {subsection}{\numberline {19.4.3}Using Member Functions as Callable Objects}{323}
+\contentsline {section}{\numberline {19.5}Nested Classes}{323}
+\contentsline {section}{\numberline {19.6}union: A Space-Saving Class}{323}
+\contentsline {section}{\numberline {19.7}Local Classes}{323}
+\contentsline {section}{\numberline {19.8}Inherently Nonportable Features}{323}
+\contentsline {subsection}{\numberline {19.8.1}Bit-fields}{323}
+\contentsline {subsection}{\numberline {19.8.2}volatile Qualifier}{323}
+\contentsline {subsection}{\numberline {19.8.3}Linkage Directives: extern "C"}{323}
+\contentsline {section}{Chapter Summary}{324}
+\contentsline {section}{Defined Terms}{324}
 \ttl@stoptoc {default@19}
 \renewcommand *{\chaptername }{\appendixname }
-\contentsline {chapter}{\numberline {A}The Library}{324}
+\contentsline {chapter}{\numberline {A}The Library}{325}
 \ttl@stoptoc {default@19}
 \ttl@starttoc {default@20}
-\contentsline {section}{\numberline {A.1}Library Names and Headers}{325}
-\contentsline {section}{\numberline {A.2}Brief Tour of the Algorithms}{328}
-\contentsline {subsection}{\numberline {A.2.1}Algorithms to Find an Object}{328}
-\contentsline {subsection}{\numberline {A.2.2}Other Read-Only Algorithms}{328}
-\contentsline {subsection}{\numberline {A.2.3}Binary Search Algorithms}{328}
-\contentsline {subsection}{\numberline {A.2.4}Algorithms That Write Container Elements}{328}
-\contentsline {subsection}{\numberline {A.2.5}Partitioning and Sorting Algorithms}{328}
-\contentsline {subsection}{\numberline {A.2.6}General Reordering Operations}{328}
-\contentsline {subsection}{\numberline {A.2.7}Permutation Algorithms}{328}
-\contentsline {subsection}{\numberline {A.2.8}Set Algorithms for Sorted Sequences}{328}
-\contentsline {subsection}{\numberline {A.2.9}Minimum and Maximum Values}{328}
-\contentsline {subsection}{\numberline {A.2.10}Numeric Algorithms}{328}
-\contentsline {section}{\numberline {A.3}Random Numbers}{328}
-\contentsline {subsection}{\numberline {A.3.1}Random Number Distributions}{328}
-\contentsline {subsection}{\numberline {A.3.2}Random Number Engines}{328}
+\contentsline {section}{\numberline {A.1}Library Names and Headers}{326}
+\contentsline {section}{\numberline {A.2}Brief Tour of the Algorithms}{329}
+\contentsline {subsection}{\numberline {A.2.1}Algorithms to Find an Object}{329}
+\contentsline {subsection}{\numberline {A.2.2}Other Read-Only Algorithms}{329}
+\contentsline {subsection}{\numberline {A.2.3}Binary Search Algorithms}{329}
+\contentsline {subsection}{\numberline {A.2.4}Algorithms That Write Container Elements}{329}
+\contentsline {subsection}{\numberline {A.2.5}Partitioning and Sorting Algorithms}{329}
+\contentsline {subsection}{\numberline {A.2.6}General Reordering Operations}{329}
+\contentsline {subsection}{\numberline {A.2.7}Permutation Algorithms}{329}
+\contentsline {subsection}{\numberline {A.2.8}Set Algorithms for Sorted Sequences}{329}
+\contentsline {subsection}{\numberline {A.2.9}Minimum and Maximum Values}{329}
+\contentsline {subsection}{\numberline {A.2.10}Numeric Algorithms}{329}
+\contentsline {section}{\numberline {A.3}Random Numbers}{329}
+\contentsline {subsection}{\numberline {A.3.1}Random Number Distributions}{329}
+\contentsline {subsection}{\numberline {A.3.2}Random Number Engines}{329}
 \ttl@stoptoc {default@20}
-\contentsline {chapter}{Index}{329}
+\contentsline {chapter}{Index}{330}
 \contentsfinish 

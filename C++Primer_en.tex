@@ -5931,7 +5931,7 @@ iterator multiple elements at a time. They also support all the relational opera
 These operations, which are often referred to as \vital{iterator arithmetic}, are described
 in Table \ref{tab:operations supported by vector and string iterators}.
 \begin{table}[H]
-\caption{Operations Supported by vector and string Iterators}
+\caption{Operations Supported by \texttt{vector} and \texttt{string} Iterators}
 \label{tab:operations supported by vector and string iterators}
 \centering
 \begin{tabular}{| ll |}
@@ -17271,9 +17271,88 @@ list<Sales_data> // list that holds Sales_data objects
 deque<double> // deque that holds doubles
 \end{lstlisting}
 			\paragraph{Constraints on Types That a Container Can Hold}
-			
+Almost any type can be used as the element type of a sequential container. In
+particular, we can define a container whose element type is itself another container.
+We define such containers exactly as we do any other container type: We specify the
+element type (which in this case is a container type) inside angle brackets:	
+\begin{lstlisting}
+vector<vector<string>> lines; // vector of vectors
+\end{lstlisting}	
+Here \verb|lines| is a \verb|vector| whose elements are \verb|vector|s of \verb|string|s.
+\begin{note}
+Older compilers may require a space between the angle brackets, for
+example, \verb|vector<vector<string> >|.
+\end{note}
+
+Although we can store almost any type in a container, some container operations
+impose requirements of their own on the element type. We can define a container for
+a type that does not support an operation-specific requirement, but we can use an
+operation only if the element type meets that operation’s requirements.
+
+As an example, the sequential container constructor that takes a size argument
+(\S~\ref{par:value initialization}, p. \pageref{par:value initialization}) uses the element type’s default constructor. Some classes do not have a
+default constructor. We can define a container that holds objects of such types, but
+we cannot construct such containers using only an element count:
+\begin{lstlisting}
+// assume noDefault is a type without a default constructor
+vector<noDefault> v1(10, init); // ok: element initializer supplied
+vector<noDefault> v2(10); // error: must supply an element initializer
+\end{lstlisting}
+As we describe the container operations, we’ll note the additional constraints, if any,
+that each container operation places on the element type.
+\begin{exercises}
+\begin{question}
+Define a \verb|list| that holds elements that are \verb|deque|s that hold \verb|int|s.
+\end{question}
+\end{exercises}
+
 		\subsection{Iterators}
+As with the containers, iterators have a common interface: If an iterator provides an
+operation, then the operation is supported in the same way for each iterator that
+supplies that operation. For example, all the iterators on the standard container types
+let us access an element from a container, and they all do so by providing the
+dereference operator. Similarly, the iterators for the library containers all define the
+increment operator to move from one element to the next.
+
+With one exception, the container iterators support all the operations listed in Table
+\ref{tab:standard container iterator operations} (p. \pageref{tab:standard container iterator operations}). The exception is that the \verb|forward_list| iterators do not support the decrement (\verb|--|) operator. The iterator arithmetic operations listed in Table \ref{tab:operations supported by vector and string iterators} (p. \pageref{tab:operations supported by vector and string iterators}) apply only to iterators for \verb|string|, \verb|vector|, \verb|deque|, and \verb|array|. We cannot
+use these operations on iterators for any of the other container types.
 			\paragraph{Iterator Ranges}
+\begin{note}
+The concept of an iterator range is fundamental to the standard library.
+\end{note}
+An \vital{iterator range} is denoted by a pair of iterators each of which refers to an
+element, or to one past the last element, in the same container. These two iterators,
+often referred to as \verb|begin| and \verb|end|—or (somewhat misleadingly) as \verb|first| and
+\verb|last|—mark a range of elements from the container.
+
+The name \verb|last|, although commonly used, is a bit misleading, because the second
+iterator never refers to the last element of the range. Instead, it refers to a point one
+past the last element. The elements in the range include the element denoted by
+\verb|first| and every element from \verb|first| up to but not including \verb|last|.
+
+This element range is called a \vital{left-inclusive interval}. The standard mathematical
+notation for such a range is
+\begin{lstlisting}
+[ begin, end )
+\end{lstlisting}
+indicating that the range begins with \verb|begin| and ends with, but does not include,
+\verb|end|. The iterators \verb|begin| and \verb|end| must refer to the same container. The iterator \verb|end|
+may be equal to \verb|begin| but must not refer to an element before the one denoted by
+\verb|begin|.
+\begin{complement}{Requirements on Iterators Forming an Iterator Range}
+Two iterators, \verb|begin| and \verb|end|, form an iterator range, if
+\begin{itemize}
+	\item They refer to elements of, or one past the end of, the same container, and
+	\item It is possible to reach \verb|end| by repeatedly incrementing \verb|begin|. In other
+words, \verb|end| must not precede \verb|begin|.
+\end{itemize}
+
+\begin{warning}
+The compiler cannot enforce these requirements. It is up to us to ensure
+that our programs follow these conventions.
+\end{warning}
+\end{complement}
 			\paragraph{Programming Implications of Using Left-Inclusive Ranges}
 
 		\subsection{Container Type Members}
