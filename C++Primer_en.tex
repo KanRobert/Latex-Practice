@@ -17354,9 +17354,115 @@ that our programs follow these conventions.
 \end{warning}
 \end{complement}
 			\paragraph{Programming Implications of Using Left-Inclusive Ranges}
+The library uses left-inclusive ranges because such ranges have three convenient
+properties. Assuming \verb|begin| and \verb|end| denote a valid iterator range, then
+\begin{itemize}
+	\item If \verb|begin| equals \verb|end|, the range is empty
+	\item If \verb|begin| is not equal to \verb|end|, there is at least one element in the range, and
+begin refers to the first element in that range
+	\item We can increment \verb|begin| some number of times until \verb|begin == end|
+\end{itemize}
+These properties mean that we can safely write loops such as the following to process
+a range of elements:
+\begin{lstlisting}
+while (begin != end) {
+   *begin = val; // ok: range isn't empty so begin denotes an element
+   ++begin; // advance the iterator to get the next element
+}
+\end{lstlisting}
+Given that \verb|begin| and \verb|end| form a valid iterator range, we know that if \verb|begin == end|, 
+then the range is empty. In this case, we exit the loop. If the range is nonempty,
+we know that \verb|begin| refers to an element in this nonempty range. Therefore, inside
+the body of the \verb|while|, we know that it is safe to dereference \verb|begin| because \verb|begin|
+must refer to an element. Finally, because the loop body increments \verb|begin|, we also
+know the loop will eventually terminate.
+\begin{exercises}
+\begin{question}
+What are the constraints on the iterators that form iterator ranges?
+\end{question}
+
+\begin{question}
+Write a function that takes a pair of iterators to a
+\verb|vector<int>| and an \verb|int| value. Look for that value in the range and return
+a \verb|bool| indicating whether it was found.
+\end{question}
+
+\begin{question}
+Rewrite the previous program to return an iterator to the
+requested element. Note that the program must handle the case where the
+element is not found.
+\end{question}
+
+\begin{question}
+What is wrong with the following program? How might you correct it?
+\begin{lstlisting}
+list<int> lst1;
+list<int>::iterator iter1 = lst1.begin(), iter2 = lst1.end();
+while (iter1 < iter2) 
+   /* ... */
+\end{lstlisting}
+\end{question}
+\end{exercises}
 
 		\subsection{Container Type Members}
+Each container defines several types, shown in Table \ref{tab:container operations} (p. \pageref{tab:container operations}). We have already
+used three of these container-defined types: \verb|size_type| (\S~\ref{par:string::size-type}, p. \pageref{par:string::size-type}), \verb|iterator|,
+and \verb|const_iterator| (\S~\ref{par:iterator types}, p. \pageref{par:iterator types}).
+
+In addition to the iterator types we’ve already used, most containers provide reverse
+iterators. Briefly, a reverse iterator is an iterator that goes backward through a
+container and inverts the meaning of the iterator operations. For example, saying ++
+on a reverse iterator yields the previous element. We’ll have more to say about
+reverse iterators in \S~\ref{subsec:reverse iterators} (p. \pageref{subsec:reverse iterators}).
+
+The remaining type aliases let us use the type of the elements stored in a container
+without knowing what that type is. If we need the element type, we refer to the
+container’s \verb|value_type|. If we need a reference to that type, we use \verb|reference| or
+\verb|const_reference|. These element-related type aliases are most useful in generic
+programs, which we’ll cover in \chaptertitlename\ \ref{chap:templates and generic programming}.
+
+To use one of these types, we must name the class of which they are a member:
+\begin{lstlisting}
+// iter is the iterator type defined by list<string>
+list<string>::iterator iter;
+// count is the difference_type type defined by vector<int>
+vector<int>::difference_type count;
+\end{lstlisting}
+These declarations use the scope operator (\S~\ref, p. \pageref) to say that we want the
+iterator member of the \verb|list<string>| class and the \verb|difference_type| defined
+by \verb|vector<int>|, respectively.
+\begin{exercises}
+\begin{question}
+What type should be used as the index into a \verb|vector| of \verb|int|s?
+\end{question}
+
+\begin{question}
+What type should be used to read elements in a \verb|list| of
+\verb|string|s? To write them?
+\end{question}
+\end{exercises}
+
 		\subsection{begin and end Members}
+The \verb|begin| and \verb|end| operations (\S~\ref{subsec:using iterators}, p. \pageref{subsec:using iterators}) yield iterators that refer to the first and one past the last element in the container. These iterators are most often used to
+form an iterator range that encompasses all the elements in the container.
+
+As shown in Table \ref{tab:container operations} (p. \pageref{tab:container operations}), there are several versions of \verb|begin| and \verb|end|: The versions with an \verb|r| return reverse iterators (which we cover in \S~\ref{subsec:reverse iterators} (p. \pageref{subsec:reverse iterators})). Those that start with a \verb|c| return the \verb|const| version of the related iterator:
+\begin{lstlisting}
+list<string> a = {"Milton", "Shakespeare", "Austen"};
+auto it1 = a.begin(); // list<string>::iterator
+auto it2 = a.rbegin(); // list<string>::reverse_iterator
+auto it3 = a.cbegin(); // list<string>::const_iterator
+auto it4 = a.crbegin();// list<string>::const_reverse_iterator
+\end{lstlisting}
+The functions that do not begin with a \verb|c| are overloaded. That is, there are actually
+two members named \verb|begin|. One is a \verb|const| member (\S~\ref, p. \pageref) that returns
+the container’s \verb|const_iterator| type. The other is non\verb|const| and returns the
+container’s \verb|iterator| type. Similarly for \verb|rbegin|, \verb|end|, and \verb|rend|. When we call one
+of these members on a non\verb|const| object, we get the version that returns \verb|iterator|.
+We get a \verb|const| version of the iterators only when we call these functions on a
+\verb|const| object. As with pointers and references to \verb|const|, we can convert a plain
+\verb|iterator| to the corresponding \verb|const_iterator|, but not vice versa.
+
 		\subsection{Defining and Initializing a Container}
 Every container type defines a default constructor (\S~\ref{par:the synthesized default constructor}, p. \pageref{par:the synthesized default constructor}). With the exception of \verb|array|, the default constructor creates an empty container of the
 specified type. Again excepting \verb|array|, the other constructors take arguments that
@@ -17423,7 +17529,7 @@ specify the size of the container and initial values for the elements.
 	\section{Revisiting Iterators}
 		\subsection{Insert Iterators}
 		\subsection{iostream Iterators}
-		\subsection{Reverse Iterators}
+		\subsection{Reverse Iterators}\label{subsec:reverse iterators}
 	\section{Structure of Generic Algorithms}
 		\subsection{The Five Iterator Categories}
 		\subsection{Algorithm Parameter Patterns}
