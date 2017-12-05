@@ -644,7 +644,7 @@ namespace.
 
 One side effect of the library’s use of a namespace is that when we use a name
 from the library, we must say explicitly that we want to use the name from the std
-namespace. Writing \verb|std::cout| uses the scope operator (the \vital{:: operator}) to say
+namespace. Writing \verb|std::cout| uses the scope operator (the \vital{:: operator}) \label{txt:scope operator} to say
 that we want to use the name \verb|cout| that is defined in the namespace \verb|std|. \S~ \ref{sec:namespace using declarations} (p.
 \pageref{sec:namespace using declarations}) will show a simpler way to access names from the library.
 			\paragraph{Reading from a Stream}
@@ -13575,7 +13575,7 @@ std::string isbn() const { return this->bookNo; }
 \end{lstlisting}
 Because \verb|this| is intended to always refer to “this” object, \verb|this| is a \verb|const| pointer
 (\S~\ref{par:const pointers}, p. \pageref{par:const pointers}). We cannot change the address that \verb|this| holds.
-			\paragraph{Introducing const Member Functions}\label{par:introducing const member functions}
+			\paragraph{Introducing \texttt{const} Member Functions}\label{par:introducing const member functions}
 The other important part about the \verb|isbn| function is the keyword \verb|const| that follows
 the parameter list. The purpose of that \verb|const| is to modify the type of the implicit
 \verb|this| pointer.
@@ -17223,7 +17223,7 @@ associative (Table \ref{tab:operations to find elements in an associative contai
 \verb|C c1(c2);| & Construct \verb|c1| as a copy of \verb|c2|\\
 \makecell[tl]{\texttt{C c(b, e);}} & \makecell[tl]{Copy elements from the range denoted by iterators \texttt{b} and \texttt{e}; \\ 
 (\textbf{not valid for} \texttt{array})} \\
-\verb|C c{a,b,c...}| & Replace elements in \verb|c1| with those in \verb|c2| \\
+\verb|C c{a,b,c...}| & List initialize \verb|c| \\
 & \\
 \multicolumn{2}{| l |}{\textbf{Assignment and swap}} \\
 \verb|c1=c2| & Replace elements in \verb|c1| with those in \verb|c2|\\
@@ -17428,7 +17428,7 @@ list<string>::iterator iter;
 // count is the difference_type type defined by vector<int>
 vector<int>::difference_type count;
 \end{lstlisting}
-These declarations use the scope operator (\S~\ref, p. \pageref) to say that we want the
+These declarations use the scope operator (\S~\ref{txt:scope operator}, p. \pageref{txt:scope operator}) to say that we want the
 iterator member of the \verb|list<string>| class and the \verb|difference_type| defined
 by \verb|vector<int>|, respectively.
 \begin{exercises}
@@ -17455,13 +17455,45 @@ auto it3 = a.cbegin(); // list<string>::const_iterator
 auto it4 = a.crbegin();// list<string>::const_reverse_iterator
 \end{lstlisting}
 The functions that do not begin with a \verb|c| are overloaded. That is, there are actually
-two members named \verb|begin|. One is a \verb|const| member (\S~\ref, p. \pageref) that returns
+two members named \verb|begin|. One is a \verb|const| member (\S~\ref{par:introducing const member functions}, p. \pageref{par:introducing const member functions}) that returns
 the container’s \verb|const_iterator| type. The other is non\verb|const| and returns the
 container’s \verb|iterator| type. Similarly for \verb|rbegin|, \verb|end|, and \verb|rend|. When we call one
 of these members on a non\verb|const| object, we get the version that returns \verb|iterator|.
 We get a \verb|const| version of the iterators only when we call these functions on a
 \verb|const| object. As with pointers and references to \verb|const|, we can convert a plain
 \verb|iterator| to the corresponding \verb|const_iterator|, but not vice versa.
+
+The \verb|c| versions were introduced by the new standard to support using \verb|auto|  (\S~\ref{subsec:the auto type specifier}, p. \pageref{subsec:the auto type specifier}) with \verb|begin| and \verb|end| functions. In the past, we had no choice but to say which type of iterator we want:
+\begin{lstlisting}
+// type is explicitly specified
+list<string>::iterator it5 = a.begin();
+list<string>::const_iterator it6 = a.begin();
+// iterator or const_iterator depending on a's type
+auto it7 = a.begin(); // const_iterator only if a is const
+auto it8 = a.cbegin(); // it8 is const_iterator
+\end{lstlisting}
+When we use \verb|auto| with \verb|begin| or \verb|end|, the iterator type we get depends on the
+container type. How we intend to use the iterator is irrelevant. The \verb|c| versions let us
+get a \verb|const_iterator| regardless of the type of the container.
+\begin{bestpractices}
+When write access is not needed, use \verb|cbegin| and \verb|cend|.
+\end{bestpractices}
+
+\begin{exercises}
+\begin{question}
+ What is the difference between the \verb|begin| and \verb|cbegin| functions?
+\end{question}
+
+\begin{question}
+What are the types of the following four objects?
+\begin{lstlisting}
+vector<int> v1;
+const vector<int> v2;
+auto it1 = v1.begin(), it2 = v2.begin();
+auto it3 = v1.cbegin(), it4 = v2.cbegin();
+\end{lstlisting}
+\end{question}
+\end{exercises}
 
 		\subsection{Defining and Initializing a Container}
 Every container type defines a default constructor (\S~\ref{par:the synthesized default constructor}, p. \pageref{par:the synthesized default constructor}). With the exception of \verb|array|, the default constructor creates an empty container of the
@@ -17485,10 +17517,88 @@ specify the size of the container and initial values for the elements.
 \end{tabular}
 \end{table}
 			\paragraph{Initializing a Container as a Copy of Another Container}
+There are two ways to create a new container as a copy of another one: We can
+directly copy the container, or (excepting \verb|array|) we can copy a range of elements denoted by a pair of iterators.
+
+To create a container as a copy of another container, the container and element
+types must match. When we pass iterators, there is no requirement that the container
+types be identical. Moreover, the element types in the new and original containers can
+differ as long as it is possible to convert (\S~\ref{subsec:type conversions}, p. \pageref{subsec:type conversions}) the elements we’re copying
+to the element type of the container we are initializing:
+\begin{lstlisting}
+// each container has three elements, initialized from the given initializers
+list<string> authors = {"Milton", "Shakespeare", "Austen"};
+vector<const char*> articles = {"a", "an", "the"};
+list<string> list2(authors); // ok: types match
+deque<string> authList(authors); // error: container types don't match
+vector<string> words(articles); // error: element types must match
+// ok: converts const char* elements to string
+forward_list<string> words(articles.begin(), articles.end());
+\end{lstlisting}
+
+\begin{note}
+When we initialize a container as a copy of another container, the container
+type and element type of both containers must be identical.
+\end{note}
+The constructor that takes two iterators uses them to denote a range of elements
+that we want to copy. As usual, the iterators mark the first and one past the last
+element to be copied. The new container has the same size as the number of
+elements in the range. Each element in the new container is initialized by the value of
+the corresponding element in the range.
+
+Because the iterators denote a range, we can use this constructor to copy a
+subsequence of a container. For example, assuming \verb|it| is an iterator denoting an
+element in \verb|authors|, we can write
+\begin{lstlisting}
+// copies up to but not including the element denoted by it
+deque<string> authList(authors.begin(), it);
+\end{lstlisting}
 			\paragraph{List Initialization}
+Under the new standard, we can list initialize (\S~\ref{par:list initializing a vector}, p. \pageref{par:list initializing a vector}) a container:
+\begin{lstlisting}
+// each container has three elements, initialized from the given initializers
+list<string> authors = {"Milton", "Shakespeare", "Austen"};
+vector<const char*> articles = {"a", "an", "the"};
+\end{lstlisting}
+When we do so, we explicitly specify values for each element in the container. For
+types other than \verb|array|, the initializer list also implicitly specifies the size of the
+container: The container will have as many elements as there are initializers.
 			\paragraph{Sequential Container Size-Related Constructors}
+In addition to the constructors that sequential containers have in common with
+associative containers (Table \ref{tab:container operations} (p. \pageref{tab:container operations})), we can also initialize the sequential containers (other than \verb|array|) from a size and an (optional) element initializer. If we do not supply an
+element initializer, the library creates a value-initialized one for us \S~\ref{par:value initialization} (p. \pageref{par:value initialization}):
+\begin{lstlisting}
+vector<int> ivec(10, -1); // ten int elements, each initialized to -1
+list<string> svec(10, "hi!"); // ten strings; each element is "hi!"
+forward_list<int> ivec(10); // ten elements, each initialized to 0
+deque<string> svec(10); // ten elements, each an empty string
+\end{lstlisting}
+
+We can use the constructor that takes a size argument if the element type is a built-
+in type or a class type that has a default constructor (\S~\ref{par:the synthesized default constructor}, p. \pageref{par:the synthesized default constructor}). If the element type does not have a default constructor, then we must specify an explicit element
+initializer along with the size.
+\begin{note}
+The constructors that take a size are valid only for sequential containers; they
+are not supported for the associative containers.
+\end{note}
 			\paragraph{Library \texttt{array}s Have Fixed Size}\label{par:library arrays have fixed size}
-			
+Just as the size of a built-in array is part of its type, the size of a library \verb|array| is part
+of its type. When we define an \verb|array|, in addition to specifying the element type, we
+also specify the container size:
+\begin{lstlisting}
+array<int, 42> // type is: array that holds 42 ints
+array<string, 10> // type is: array that holds 10 strings
+\end{lstlisting}		
+To use an array type we must specify both the element type and the size:
+\begin{lstlisting}
+array<int, 10>::size_type i; // array type includes element type and size
+array<int>::size_type j; // error: array<int> is not a type
+\end{lstlisting}
+Because the size is part of the \verb|array|’s type, \verb|array| does not support the normal
+container constructors. Those constructors, implicitly or explicitly, determine the size of
+the container. It would be redundant (at best) and error-prone to allow users to pass
+a size argument to an \verb|array| constructor.
+
 		\subsection{Assignment and swap}
 		\subsection{Container Size Operations}
 		\subsection{Relational Operators}

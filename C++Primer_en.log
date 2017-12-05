@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.24)  2 DEC 2017 00:18
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.24)  5 DEC 2017 14:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1902,72 +1902,72 @@ Overfull \hbox (4.29997pt too wide) detected at line 453
 
 
 Overfull \hbox (4.29997pt too wide) detected at line 488
- \TU/lmss/bx/n/12 258
+ \TU/lmss/bx/n/12 260
  []
 
 [6]
 Overfull \hbox (4.29997pt too wide) detected at line 510
- \TU/lmss/bx/n/12 261
+ \TU/lmss/bx/n/12 263
  []
 
 
 Overfull \hbox (4.29997pt too wide) detected at line 532
- \TU/lmss/bx/n/12 264
+ \TU/lmss/bx/n/12 266
  []
 
 
 Overfull \hbox (18.72098pt too wide) detected at line 556
- \TU/lmss/bx/n/20.74 267
+ \TU/lmss/bx/n/20.74 269
  []
 
 
 Overfull \hbox (4.29997pt too wide) detected at line 557
- \TU/lmss/bx/n/12 268
+ \TU/lmss/bx/n/12 270
  []
 
 [7]
 Overfull \hbox (4.29997pt too wide) detected at line 605
- \TU/lmss/bx/n/12 276
+ \TU/lmss/bx/n/12 278
  []
 
 
 Overfull \hbox (4.29997pt too wide) detected at line 628
- \TU/lmss/bx/n/12 279
+ \TU/lmss/bx/n/12 281
  []
 
 [8]
 Overfull \hbox (4.29997pt too wide) detected at line 700
- \TU/lmss/bx/n/12 313
+ \TU/lmss/bx/n/12 316
  []
 
 
 Overfull \hbox (18.72098pt too wide) detected at line 731
- \TU/lmss/bx/n/20.74 316
+ \TU/lmss/bx/n/20.74 319
  []
 
 
 Overfull \hbox (4.29997pt too wide) detected at line 732
- \TU/lmss/bx/n/12 317
+ \TU/lmss/bx/n/12 320
  []
 
 [9]
 Overfull \hbox (4.29997pt too wide) detected at line 758
- \TU/lmss/bx/n/12 320
+ \TU/lmss/bx/n/12 323
  []
 
 
 Overfull \hbox (4.29997pt too wide) detected at line 778
- \TU/lmss/bx/n/12 322
+ \TU/lmss/bx/n/12 325
  []
 
 
 Overfull \hbox (4.29997pt too wide) detected at line 802
- \TU/lmss/bx/n/12 325
+ \TU/lmss/bx/n/12 328
  []
 
 [10]
 Overfull \hbox (4.29997pt too wide) detected at line 818
- \TU/lmss/bx/n/12 330
+ \TU/lmss/bx/n/12 333
  []
 
 )
@@ -2843,12 +2843,7 @@ LaTeX Warning: Reference `' on page 126 undefined on input line 8922.
 
 LaTeX Warning: Reference `' on page 126 undefined on input line 8958.
 
-[126]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 4.4 on input line 8960.
-
-[127]
+[126] [127]
 Underfull \hbox (badness 10000) in paragraph at lines 8988--8992
 []\TU/lmr/m/n/10 A conversion from one
  []
@@ -3453,17 +3448,17 @@ Overfull \hbox (4.878pt too wide) detected at line 480
 
 
 Overfull \hbox (4.878pt too wide) detected at line 518
- \TU/lmr/m/n/9 258
+ \TU/lmr/m/n/9 260
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 543
- \TU/lmr/m/n/9 261
+ \TU/lmr/m/n/9 263
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 568
- \TU/lmr/m/n/9 264
+ \TU/lmr/m/n/9 266
  []
 
 ) [234
@@ -3568,32 +3563,32 @@ Overfull \hbox (4.878pt too wide) detected at line 485
 
 
 Overfull \hbox (4.878pt too wide) detected at line 500
- \TU/lmr/m/n/9 256
+ \TU/lmr/m/n/9 258
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 507
- \TU/lmr/m/n/9 256
+ \TU/lmr/m/n/9 258
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 508
- \TU/lmr/m/n/9 256
+ \TU/lmr/m/n/9 258
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 514
- \TU/lmr/m/n/9 256
+ \TU/lmr/m/n/9 258
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 515
- \TU/lmr/m/n/9 257
+ \TU/lmr/m/n/9 259
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 516
- \TU/lmr/m/n/9 257
+ \TU/lmr/m/n/9 259
  []
 
 ) [249
@@ -3654,459 +3649,460 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 17355--17355
 \openout7 = `C++Primer_en-exercises-113-exercise-body.tex'.
 
 (./C++Primer_en-exercises-113-exercise-body.tex) [254]
-
-LaTeX Warning: Reference `,' on page 255 undefined on input line 17431.
-
-
-LaTeX Warning: Reference `)' on page 255 undefined on input line 17431.
-
 \openout7 = `C++Primer_en-exercises-114-exercise-body.tex'.
 
+
 (./C++Primer_en-exercises-114-exercise-body.tex)
+File: bestpractices.png Graphic file (type bmp)
+<bestpractices.png>
+\openout7 = `C++Primer_en-exercises-115-exercise-body.tex'.
 
-LaTeX Warning: Reference `,' on page 255 undefined on input line 17458.
 
-
-LaTeX Warning: Reference `)' on page 255 undefined on input line 17458.
-
-[255] [256] [257]
+(./C++Primer_en-exercises-115-exercise-body.tex) [255]
+File: note.png Graphic file (type bmp)
+<note.png>
+ [256]
+File: note.png Graphic file (type bmp)
+<note.png>
+ [257] [258]
+[259]
 Chapter 10.
 (./C++Primer_en.ptc
 Overfull \hbox (4.878pt too wide) detected at line 521
- \TU/lmr/m/n/9 259
+ \TU/lmr/m/n/9 261
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 522
- \TU/lmr/m/n/9 259
+ \TU/lmr/m/n/9 261
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 526
- \TU/lmr/m/n/9 259
+ \TU/lmr/m/n/9 261
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 531
- \TU/lmr/m/n/9 259
+ \TU/lmr/m/n/9 261
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 535
- \TU/lmr/m/n/9 259
+ \TU/lmr/m/n/9 261
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 539
- \TU/lmr/m/n/9 259
+ \TU/lmr/m/n/9 261
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 540
- \TU/lmr/m/n/9 260
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 541
- \TU/lmr/m/n/9 260
- []
-
-) [258
-
-] [259] [260]
-Chapter 11.
-(./C++Primer_en.ptc
-Overfull \hbox (4.878pt too wide) detected at line 546
- \TU/lmr/m/n/9 261
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 547
- \TU/lmr/m/n/9 261
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 554
- \TU/lmr/m/n/9 261
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 561
  \TU/lmr/m/n/9 262
  []
 
 
-Overfull \hbox (4.878pt too wide) detected at line 565
+Overfull \hbox (4.878pt too wide) detected at line 541
+ \TU/lmr/m/n/9 262
+ []
+
+) [260
+
+] [261] [262]
+Chapter 11.
+(./C++Primer_en.ptc
+Overfull \hbox (4.878pt too wide) detected at line 546
  \TU/lmr/m/n/9 263
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 547
+ \TU/lmr/m/n/9 263
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 554
+ \TU/lmr/m/n/9 263
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 561
+ \TU/lmr/m/n/9 264
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 565
+ \TU/lmr/m/n/9 265
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 566
- \TU/lmr/m/n/9 263
+ \TU/lmr/m/n/9 265
  []
 
-) [261
+) [263
 
-] [262] [263]
+] [264] [265]
 Chapter 12.
 (./C++Primer_en.ptc
 Overfull \hbox (4.878pt too wide) detected at line 571
- \TU/lmr/m/n/9 265
+ \TU/lmr/m/n/9 267
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 586
- \TU/lmr/m/n/9 265
+ \TU/lmr/m/n/9 267
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 589
- \TU/lmr/m/n/9 265
+ \TU/lmr/m/n/9 267
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 592
- \TU/lmr/m/n/9 266
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 593
- \TU/lmr/m/n/9 266
- []
-
-) [264
-
-] [265] [266] (./C++Primer_en.ptc
-Overfull \hbox (4.878pt too wide) detected at line 598
  \TU/lmr/m/n/9 268
  []
 
 
+Overfull \hbox (4.878pt too wide) detected at line 593
+ \TU/lmr/m/n/9 268
+ []
+
+) [266
+
+] [267] [268] (./C++Primer_en.ptc
+Overfull \hbox (4.878pt too wide) detected at line 598
+ \TU/lmr/m/n/9 270
+ []
+
+
 Overfull \hbox (4.878pt too wide) detected at line 649
- \TU/lmr/m/n/9 276
+ \TU/lmr/m/n/9 278
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 675
- \TU/lmr/m/n/9 279
+ \TU/lmr/m/n/9 281
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 750
- \TU/lmr/m/n/9 313
+ \TU/lmr/m/n/9 316
  []
 
-) [267
+) [269
 
 ]
 Chapter 13.
 (./C++Primer_en.ptc
 Overfull \hbox (4.878pt too wide) detected at line 601
- \TU/lmr/m/n/9 269
+ \TU/lmr/m/n/9 271
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 623
- \TU/lmr/m/n/9 274
+ \TU/lmr/m/n/9 276
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 626
- \TU/lmr/m/n/9 274
+ \TU/lmr/m/n/9 276
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 627
- \TU/lmr/m/n/9 274
+ \TU/lmr/m/n/9 276
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 628
- \TU/lmr/m/n/9 274
+ \TU/lmr/m/n/9 276
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 629
- \TU/lmr/m/n/9 274
+ \TU/lmr/m/n/9 276
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 646
- \TU/lmr/m/n/9 275
+ \TU/lmr/m/n/9 277
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 647
- \TU/lmr/m/n/9 275
+ \TU/lmr/m/n/9 277
  []
 
-) [268
+) [270
 
 ]
 File: warning.png Graphic file (type bmp)
 <warning.png>
-\openout7 = `C++Primer_en-exercises-115-exercise-body.tex'.
-
- (./C++Primer_en-exercises-115-exercise-body.tex) [269]
-File: note.png Graphic file (type bmp)
-<note.png>
- [270] [271]
-[272]
-File: tip.png Graphic file (type bmp)
-<tip.png>
 \openout7 = `C++Primer_en-exercises-116-exercise-body.tex'.
 
- (./C++Primer_en-exercises-116-exercise-body.tex) [273] [274] [275]
+ (./C++Primer_en-exercises-116-exercise-body.tex) [271]
+File: note.png Graphic file (type bmp)
+<note.png>
+ [272] [273]
+[274]
+File: tip.png Graphic file (type bmp)
+<tip.png>
+\openout7 = `C++Primer_en-exercises-117-exercise-body.tex'.
+
+ (./C++Primer_en-exercises-117-exercise-body.tex) [275] [276] [277]
 Chapter 14.
 (./C++Primer_en.ptc
 Overfull \hbox (4.878pt too wide) detected at line 652
- \TU/lmr/m/n/9 277
+ \TU/lmr/m/n/9 279
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 654
- \TU/lmr/m/n/9 277
+ \TU/lmr/m/n/9 279
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 657
- \TU/lmr/m/n/9 277
+ \TU/lmr/m/n/9 279
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 660
- \TU/lmr/m/n/9 277
+ \TU/lmr/m/n/9 279
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 661
- \TU/lmr/m/n/9 277
+ \TU/lmr/m/n/9 279
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 662
- \TU/lmr/m/n/9 277
+ \TU/lmr/m/n/9 279
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 663
- \TU/lmr/m/n/9 277
+ \TU/lmr/m/n/9 279
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 664
- \TU/lmr/m/n/9 277
+ \TU/lmr/m/n/9 279
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 668
- \TU/lmr/m/n/9 277
+ \TU/lmr/m/n/9 279
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 672
- \TU/lmr/m/n/9 278
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 673
- \TU/lmr/m/n/9 278
- []
-
-) [276
-
-] [277] [278]
-Chapter 15.
-(./C++Primer_en.ptc
-Overfull \hbox (4.878pt too wide) detected at line 678
  \TU/lmr/m/n/9 280
  []
 
 
+Overfull \hbox (4.878pt too wide) detected at line 673
+ \TU/lmr/m/n/9 280
+ []
+
+) [278
+
+] [279] [280]
+Chapter 15.
+(./C++Primer_en.ptc
+Overfull \hbox (4.878pt too wide) detected at line 678
+ \TU/lmr/m/n/9 282
+ []
+
+
 Overfull \hbox (4.878pt too wide) detected at line 681
- \TU/lmr/m/n/9 281
+ \TU/lmr/m/n/9 283
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 698
- \TU/lmr/m/n/9 288
+ \TU/lmr/m/n/9 290
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 704
- \TU/lmr/m/n/9 291
+ \TU/lmr/m/n/9 294
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 708
- \TU/lmr/m/n/9 293
+ \TU/lmr/m/n/9 295
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 715
- \TU/lmr/m/n/9 298
+ \TU/lmr/m/n/9 300
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 723
- \TU/lmr/m/n/9 301
+ \TU/lmr/m/n/9 304
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 736
- \TU/lmr/m/n/9 307
+ \TU/lmr/m/n/9 309
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 742
- \TU/lmr/m/n/9 310
+ \TU/lmr/m/n/9 313
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 747
- \TU/lmr/m/n/9 312
+ \TU/lmr/m/n/9 315
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 748
- \TU/lmr/m/n/9 312
+ \TU/lmr/m/n/9 315
  []
 
-) [279
+) [281
 
-] [280]
+] [282]
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.80304pt too wide) in paragraph at lines 18181--18182
+Overfull \hbox (6.80304pt too wide) in paragraph at lines 18291--18292
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 File: note.png Graphic file (type bmp)
 <note.png>
-[281]
-\openout7 = `C++Primer_en-exercises-117-exercise-body.tex'.
+[283]
+\openout7 = `C++Primer_en-exercises-118-exercise-body.tex'.
 
- (./C++Primer_en-exercises-117-exercise-body.tex)
-Overfull \hbox (3.28407pt too wide) in paragraph at lines 18263--18265
+ (./C++Primer_en-exercises-118-exercise-body.tex)
+Overfull \hbox (3.28407pt too wide) in paragraph at lines 18373--18375
 []\TU/lmr/m/n/10 A derived class must declare each inherited member function it
  intends to override. Therefore, our [][]\TU/lmtt/m/n/10 Bulk_quote
  []
 
-[282]
-Overfull \hbox (3.04726pt too wide) in paragraph at lines 18326--18326
+[284]
+Overfull \hbox (3.04726pt too wide) in paragraph at lines 18436--18436
  [][][][]\TU/lmtt/m/n/10 bookNo 
  []
 
 File: note.png Graphic file (type bmp)
 <note.png>
-[283]
+[285]
 File: note.png Graphic file (type bmp)
 <note.png>
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 18423--18423
+Overfull \hbox (6.0pt too wide) in paragraph at lines 18533--18533
  [][][][][][][] 
  []
 
-[284] [285]
-\openout7 = `C++Primer_en-exercises-118-exercise-body.tex'.
-
- (./C++Primer_en-exercises-118-exercise-body.tex)
-File: warning.png Graphic file (type bmp)
-<warning.png>
-File: note.png Graphic file (type bmp)
-<note.png>
- [286]
-File: note.png Graphic file (type bmp)
-<note.png>
- [287]
-File: warning.png Graphic file (type bmp)
-<warning.png>
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 18672--18672
- [][][][][][][] 
- []
-
+[286] [287]
 \openout7 = `C++Primer_en-exercises-119-exercise-body.tex'.
 
-(./C++Primer_en-exercises-119-exercise-body.tex) [288]
+ (./C++Primer_en-exercises-119-exercise-body.tex)
+File: warning.png Graphic file (type bmp)
+<warning.png>
+File: note.png Graphic file (type bmp)
+<note.png>
+ [288]
+File: note.png Graphic file (type bmp)
+<note.png>
+ [289]
+File: warning.png Graphic file (type bmp)
+<warning.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 18782--18782
+ [][][][][][][] 
+ []
+
+\openout7 = `C++Primer_en-exercises-120-exercise-body.tex'.
+
+(./C++Primer_en-exercises-120-exercise-body.tex) [290]
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 18758--18758
+Overfull \hbox (6.0pt too wide) in paragraph at lines 18868--18868
  [][][][][][][] 
  []
 
 File: note.png Graphic file (type bmp)
 <note.png>
-[289]
+[291]
 File: bestpractices.png Graphic file (type bmp)
 <bestpractices.png>
- [290]
+ [292]
 File: note.png Graphic file (type bmp)
 <note.png>
 File: warning.png Graphic file (type bmp)
 <warning.png>
-\openout7 = `C++Primer_en-exercises-120-exercise-body.tex'.
+\openout7 = `C++Primer_en-exercises-121-exercise-body.tex'.
 
- (./C++Primer_en-exercises-120-exercise-body.tex) [291] [292]
+ (./C++Primer_en-exercises-121-exercise-body.tex) [293] [294]
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19046--19046
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19156--19156
  [][][][][][][] 
  []
 
-\openout7 = `C++Primer_en-exercises-121-exercise-body.tex'.
+\openout7 = `C++Primer_en-exercises-122-exercise-body.tex'.
 
-(./C++Primer_en-exercises-121-exercise-body.tex) [293] [294]
+(./C++Primer_en-exercises-122-exercise-body.tex) [295] [296]
 File: tip.png Graphic file (type bmp)
 <tip.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19219--19219
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19329--19329
  [][][][][][][] 
  []
 
-[295]
+[297]
 File: note.png Graphic file (type bmp)
 <note.png>
- [296]
+ [298]
 File: note.png Graphic file (type bmp)
 <note.png>
 File: bestpractices.png Graphic file (type bmp)
 <bestpractices.png>
-\openout7 = `C++Primer_en-exercises-122-exercise-body.tex'.
-
- (./C++Primer_en-exercises-122-exercise-body.tex) [297] [298]
-File: note.png Graphic file (type bmp)
-<note.png>
-File: bestpractices.png Graphic file (type bmp)
-<bestpractices.png>
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19486--19486
- [][][][][][][] 
- []
-
-[299] [300] [301]
 \openout7 = `C++Primer_en-exercises-123-exercise-body.tex'.
 
- (./C++Primer_en-exercises-123-exercise-body.tex)
-File: warning.png Graphic file (type bmp)
-<warning.png>
+ (./C++Primer_en-exercises-123-exercise-body.tex) [299] [300]
+File: note.png Graphic file (type bmp)
+<note.png>
+File: bestpractices.png Graphic file (type bmp)
+<bestpractices.png>
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19596--19596
+ [][][][][][][] 
+ []
+
+[301] [302] [303]
 \openout7 = `C++Primer_en-exercises-124-exercise-body.tex'.
 
- [302]
-(./C++Primer_en-exercises-124-exercise-body.tex) [303]
-\openout7 = `C++Primer_en-exercises-125-exercise-body.tex'.
-
-
-(./C++Primer_en-exercises-125-exercise-body.tex)
+ (./C++Primer_en-exercises-124-exercise-body.tex)
 File: warning.png Graphic file (type bmp)
 <warning.png>
+\openout7 = `C++Primer_en-exercises-125-exercise-body.tex'.
+
  [304]
-Overfull \hbox (5.75308pt too wide) in paragraph at lines 19814--19815
+(./C++Primer_en-exercises-125-exercise-body.tex) [305]
+\openout7 = `C++Primer_en-exercises-126-exercise-body.tex'.
+
+
+(./C++Primer_en-exercises-126-exercise-body.tex)
+File: warning.png Graphic file (type bmp)
+<warning.png>
+ [306]
+Overfull \hbox (5.75308pt too wide) in paragraph at lines 19924--19925
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][] 
@@ -4114,280 +4110,270 @@ Overfull \hbox (5.75308pt too wide) in paragraph at lines 19814--19815
 
 File: warning.png Graphic file (type bmp)
 <warning.png>
-[305]
+[307]
 File: note.png Graphic file (type bmp)
 <note.png>
-\openout7 = `C++Primer_en-exercises-126-exercise-body.tex'.
-
- (./C++Primer_en-exercises-126-exercise-body.tex) [306]
 \openout7 = `C++Primer_en-exercises-127-exercise-body.tex'.
 
-
-(./C++Primer_en-exercises-127-exercise-body.tex) [307]
-File: warning.png Graphic file (type bmp)
-<warning.png>
+ (./C++Primer_en-exercises-127-exercise-body.tex) [308]
 \openout7 = `C++Primer_en-exercises-128-exercise-body.tex'.
 
 
-(./C++Primer_en-exercises-128-exercise-body.tex)
-Overfull \hbox (22.55304pt too wide) in paragraph at lines 20072--20073
+(./C++Primer_en-exercises-128-exercise-body.tex) [309]
+File: warning.png Graphic file (type bmp)
+<warning.png>
+\openout7 = `C++Primer_en-exercises-129-exercise-body.tex'.
+
+
+(./C++Primer_en-exercises-129-exercise-body.tex)
+Overfull \hbox (22.55304pt too wide) in paragraph at lines 20182--20183
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][] 
  []
 
-[308] [309]
-\openout7 = `C++Primer_en-exercises-129-exercise-body.tex'.
+[310] [311]
+\openout7 = `C++Primer_en-exercises-130-exercise-body.tex'.
 
- [310] (./C++Primer_en-exercises-129-exercise-body.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 20243--20253
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20258--20263
+ [312] (./C++Primer_en-exercises-130-exercise-body.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 20353--20363
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20277--20281
+Underfull \hbox (badness 10000) in paragraph at lines 20368--20373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20285--20288
+Underfull \hbox (badness 10000) in paragraph at lines 20387--20391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20297--20302
+Underfull \hbox (badness 10000) in paragraph at lines 20395--20398
 
  []
 
-[311] [312] [313]
+
+Underfull \hbox (badness 10000) in paragraph at lines 20407--20412
+
+ []
+
+[313] [314] [315]
 Chapter 16.
 (./C++Primer_en.ptc
 Overfull \hbox (4.878pt too wide) detected at line 753
- \TU/lmr/m/n/9 314
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 767
- \TU/lmr/m/n/9 314
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 775
- \TU/lmr/m/n/9 314
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 776
- \TU/lmr/m/n/9 314
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 780
- \TU/lmr/m/n/9 314
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 781
- \TU/lmr/m/n/9 315
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 782
- \TU/lmr/m/n/9 315
- []
-
-) [314
-
-] [315] [316] (./C++Primer_en.ptc
-Overfull \hbox (4.878pt too wide) detected at line 787
  \TU/lmr/m/n/9 317
  []
 
 
-Overfull \hbox (4.878pt too wide) detected at line 816
+Overfull \hbox (4.878pt too wide) detected at line 767
+ \TU/lmr/m/n/9 317
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 775
+ \TU/lmr/m/n/9 317
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 776
+ \TU/lmr/m/n/9 317
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 780
+ \TU/lmr/m/n/9 317
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 781
+ \TU/lmr/m/n/9 318
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 782
+ \TU/lmr/m/n/9 318
+ []
+
+) [316
+
+] [317] [318] (./C++Primer_en.ptc
+Overfull \hbox (4.878pt too wide) detected at line 787
  \TU/lmr/m/n/9 320
  []
 
 
-Overfull \hbox (4.878pt too wide) detected at line 839
- \TU/lmr/m/n/9 322
+Overfull \hbox (4.878pt too wide) detected at line 816
+ \TU/lmr/m/n/9 323
  []
 
 
-Overfull \hbox (4.878pt too wide) detected at line 866
+Overfull \hbox (4.878pt too wide) detected at line 839
  \TU/lmr/m/n/9 325
  []
 
 
-Overfull \hbox (4.878pt too wide) detected at line 885
- \TU/lmr/m/n/9 330
+Overfull \hbox (4.878pt too wide) detected at line 866
+ \TU/lmr/m/n/9 328
  []
 
-) [317
+
+Overfull \hbox (4.878pt too wide) detected at line 885
+ \TU/lmr/m/n/9 333
+ []
+
+) [319
 
 ]
 Chapter 17.
 (./C++Primer_en.ptc
 Overfull \hbox (4.878pt too wide) detected at line 790
- \TU/lmr/m/n/9 318
+ \TU/lmr/m/n/9 321
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 793
- \TU/lmr/m/n/9 318
+ \TU/lmr/m/n/9 321
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 796
- \TU/lmr/m/n/9 318
+ \TU/lmr/m/n/9 321
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 801
- \TU/lmr/m/n/9 318
+ \TU/lmr/m/n/9 321
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 804
- \TU/lmr/m/n/9 318
+ \TU/lmr/m/n/9 321
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 813
- \TU/lmr/m/n/9 319
+ \TU/lmr/m/n/9 322
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 814
- \TU/lmr/m/n/9 319
+ \TU/lmr/m/n/9 322
  []
 
-) [318
+) [320
 
-] [319] [320]
+] [321] [322]
 Chapter 18.
 (./C++Primer_en.ptc
 Overfull \hbox (4.878pt too wide) detected at line 819
- \TU/lmr/m/n/9 320
+ \TU/lmr/m/n/9 323
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 825
- \TU/lmr/m/n/9 320
+ \TU/lmr/m/n/9 323
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 830
- \TU/lmr/m/n/9 320
+ \TU/lmr/m/n/9 323
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 836
- \TU/lmr/m/n/9 321
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 837
- \TU/lmr/m/n/9 321
- []
-
-) [321
-
-] [322]
-Chapter 19.
-(./C++Primer_en.ptc
-Overfull \hbox (4.878pt too wide) detected at line 842
- \TU/lmr/m/n/9 323
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 845
- \TU/lmr/m/n/9 323
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 850
- \TU/lmr/m/n/9 323
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 851
- \TU/lmr/m/n/9 323
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 855
- \TU/lmr/m/n/9 323
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 856
- \TU/lmr/m/n/9 323
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 857
- \TU/lmr/m/n/9 323
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 858
- \TU/lmr/m/n/9 323
- []
-
-
-Overfull \hbox (4.878pt too wide) detected at line 862
  \TU/lmr/m/n/9 324
  []
 
 
-Overfull \hbox (4.878pt too wide) detected at line 863
+Overfull \hbox (4.878pt too wide) detected at line 837
  \TU/lmr/m/n/9 324
  []
 
 ) [323
 
-] [324] [325]
-Appendix A.
+] [324]
+Chapter 19.
 (./C++Primer_en.ptc
-Overfull \hbox (4.878pt too wide) detected at line 869
+Overfull \hbox (4.878pt too wide) detected at line 842
  \TU/lmr/m/n/9 326
  []
 
 
-Overfull \hbox (4.878pt too wide) detected at line 870
+Overfull \hbox (4.878pt too wide) detected at line 845
+ \TU/lmr/m/n/9 326
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 850
+ \TU/lmr/m/n/9 326
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 851
+ \TU/lmr/m/n/9 326
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 855
+ \TU/lmr/m/n/9 326
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 856
+ \TU/lmr/m/n/9 326
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 857
+ \TU/lmr/m/n/9 326
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 858
+ \TU/lmr/m/n/9 326
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 862
+ \TU/lmr/m/n/9 327
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 863
+ \TU/lmr/m/n/9 327
+ []
+
+) [325
+
+] [326] [327]
+Appendix A.
+(./C++Primer_en.ptc
+Overfull \hbox (4.878pt too wide) detected at line 869
  \TU/lmr/m/n/9 329
+ []
+
+
+Overfull \hbox (4.878pt too wide) detected at line 870
+ \TU/lmr/m/n/9 332
  []
 
 
 Overfull \hbox (4.878pt too wide) detected at line 881
- \TU/lmr/m/n/9 329
+ \TU/lmr/m/n/9 332
  []
 
-) [326
+) [328
 
-] [327] [328] [329] [330]
+] [329] [330] [331] [332]
 \tf@ptc=\write8
 \openout8 = `C++Primer_en.ptc'.
 
-
-*************************************************
-* xsim warning: "rerun"
-* 
-* Exercise properties may have changed. Rerun to get them synchronized.
-*************************************************
-[331
+ [333
 
 
-]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-(./C++Primer_en.aux)
+] (./C++Primer_en.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -4396,12 +4382,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 32671 strings out of 492998
- 684133 string characters out of 6137851
- 982264 words of memory out of 5000000
- 35735 multiletter control sequences out of 15000+600000
+ 32696 strings out of 492998
+ 684508 string characters out of 6137851
+ 984329 words of memory out of 5000000
+ 35757 multiletter control sequences out of 15000+600000
  534152 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,18n,100p,10360b,1626s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on C++Primer_en.pdf (343 pages).
+Output written on C++Primer_en.pdf (345 pages).
