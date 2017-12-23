@@ -85,6 +85,7 @@
                 commentstyle=\color{PineGreen}\ttfamily\slshape\small,
                 morecomment=[l][\color{RedViolet}]{\#},
                 columns=flexible, %cancel monospced characters
+                %columns=fixed,
                 showstringspaces=false, %not show space
                 morekeywords={decltype, constexpr, override}, %add more keywords
                 xleftmargin=\parindent
@@ -569,7 +570,7 @@ int main()
    int v1 = 0, v2 = 0;
    std::cin >> v1 >> v2;
    std::cout << "The sum of " << v1 << " and " << v2
-           << " is " << v1 + v2 << std::endl;
+             << " is " << v1 + v2 << std::endl;
    return 0;
 }
 \end{lstlisting}
@@ -681,7 +682,7 @@ std::cin >> v2;
 What remains is to print our result:
 \begin{lstlisting}
 std::cout << "The sum of " << v1 << " and " << v2
-        << " is " << v1 + v2 << std::endl;
+          << " is " << v1 + v2 << std::endl;
 \end{lstlisting}
 This statement, although longer than the one that prompted the user for input, is
 conceptually similar. It prints each of its operands on the standard output. What is
@@ -711,8 +712,8 @@ program to use a separate statement to print each operand.
 Explain whether the following program fragment is legal.
 \begin{lstlisting}
 std::cout << "The sum of " << v1;
-        << " and " << v2;
-        << " is " << v1 + v2 << std::endl;
+          << " and " << v2;
+          << " is " << v1 + v2 << std::endl;
 \end{lstlisting}	
 If the program is legal, what does it do? If the program is not legal, why
 not? How would you fix it?
@@ -765,7 +766,7 @@ int main()
    int v1 = 0, v2 = 0; // variables to hold the input we read
    std::cin >> v1 >> v2; // read input
    std::cout << "The sum of " << v1 << " and " << v2
-   << " is " << v1 + v2 << std::endl;
+             << " is " << v1 + v2 << std::endl;
    return 0;
 }
 \end{lstlisting}
@@ -844,7 +845,7 @@ int main()
       ++val; // add 1 to val
    }
    std::cout << "Sum of 1 to 10 inclusive is "
-           << sum << std::endl;
+             << sum << std::endl;
    return 0;
 }
 \end{lstlisting}
@@ -950,7 +951,7 @@ int main()
    for (int val = 1; val <= 10; ++val)
       sum += val; // equivalent to sum = sum + val
    std::cout << "Sum of 1 to 10 inclusive is "
-          << sum << std::endl;
+             << sum << std::endl;
    return 0;
 }
 \end{lstlisting}
@@ -1159,14 +1160,14 @@ int main()
             ++cnt; // add 1 to cnt
          else { // otherwise, print the count for the previous value
 	   std::cout << currVal << " occurs "
-	           << cnt << " times" << std::endl;
+	             << cnt << " times" << std::endl;
 	   currVal = val; // remember the new value
 	   cnt = 1; // reset the counter
          }
       } // while loop ends here
       // remember to print the count for the last value in the file
       std::cout << currVal << " occurs "
-              << cnt << " times" << std::endl;
+                << cnt << " times" << std::endl;
 } // outermost if statement ends here
    return 0;
 }
@@ -1207,7 +1208,7 @@ if (val == currVal) // if the values are the same
    ++cnt; // add 1 to cnt
 else { // otherwise, print the count for the previous value
    std::cout << currVal << " occurs "
-           << cnt << " times" << std::endl;
+             << cnt << " times" << std::endl;
    currVal = val; // remember the new value
    cnt = 1; // reset the counter
 }
@@ -1468,7 +1469,7 @@ int main()
    } 
    else {
       std::cerr << "Data must refer to same ISBN"
-              << std::endl;
+                << std::endl;
       return -1; // indicate failure
    }
 }
@@ -2273,11 +2274,11 @@ using one of the prefixes from Table \ref{specifying the type of a literal}.
 We can override the default type of an integer, floating- point, or character literal by
 supplying a suffix or prefix as listed in Table \ref{specifying the type of a literal}.
 \begin{lstlisting}
-L'a'		// wide character literal, type is wchar_t
-u8"hi!"		// utf-8 string literal (utf-8 encodes a Unicode character in 8 bits)
-42ULL		// unsigned integer literal, type is unsigned long long
-1E-3		// single-precision floating-point literal, type is float
-3.14159		// extended-precision floating-point literal, type is long double
+L'a'    // wide character literal, type is wchar_t
+u8"hi!" // utf-8 string literal (utf-8 encodes a Unicode character in 8 bits)
+42ULL   // unsigned integer literal, type is unsigned long long
+1E-3	    // single-precision floating-point literal, type is float
+3.14159 // extended-precision floating-point literal, type is long double
 \end{lstlisting}
 
 \begin{bestpractices}
@@ -2357,7 +2358,7 @@ int sum = 0, value,  // sum, value, and units_sold have type int
 units_sold = 0;        // sum and units_sold have initial value 0
 Sales_item item;    // item has type Sales_item 
 // string is a library type, representing a variable-length 
-//sequence of characters
+// sequence of characters
 std::string book("0-201-78345-X");     // book initialized from string literal
 \end{lstlisting}
 
@@ -2694,7 +2695,7 @@ int main()
    for (int val = 1; val <= 10; ++val)
       sum += val; // equivalent to sum = sum + val
    std::cout << "Sum of 1 to 10 inclusive is "
-           << sum << std::endl;
+             << sum << std::endl;
    return 0;
 }
 \end{lstlisting}

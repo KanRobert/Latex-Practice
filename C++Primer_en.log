@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.24)  7 DEC 2017 17:52
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.24)  23 DEC 2017 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1649,12 +1649,12 @@ Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.10'
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'exercises' with sig. 'o' on line 236.
+. Defining environment 'exercises' with sig. 'o' on line 237.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'solutions' with sig. 'o' on line 236.
+. Defining environment 'solutions' with sig. 'o' on line 237.
 .................................................
 \c@question=\count308
  (c:/texlive/2017/texmf-dist/tex/latex/pagecolor/pagecolor.sty
@@ -1762,7 +1762,7 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \minrowclearance=\skip75
 )
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 303.
+h' as default language. on input line 304.
 
 (./C++Primer_en.aux
 
@@ -1772,20 +1772,20 @@ efined.
 )
 \openout1 = `C++Primer_en.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 303.
-LaTeX Font Info:    ... okay on input line 303.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 304.
+LaTeX Font Info:    ... okay on input line 304.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 304.
+LaTeX Font Info:    ... okay on input line 304.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 304.
+LaTeX Font Info:    ... okay on input line 304.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 304.
+LaTeX Font Info:    ... okay on input line 304.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 304.
+LaTeX Font Info:    ... okay on input line 304.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 304.
+LaTeX Font Info:    ... okay on input line 304.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 304.
+LaTeX Font Info:    ... okay on input line 304.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1829,30 +1829,30 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 303.
+or `english'. on input line 304.
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 [][] [][]
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 313.
+(Font)              <12> on input line 314.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 313.
+(Font)              <8> on input line 314.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 313.
+(Font)              <6> on input line 314.
 [1
 
 
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 317.
+(Font)              <9> on input line 318.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 317.
+(Font)              <5> on input line 318.
  [2
 
 ] (./C++Primer_en.toc
@@ -1975,22 +1975,22 @@ Overfull \hbox (4.29997pt too wide) detected at line 821
 \openout6 = `C++Primer_en.toc'.
 
  [11]
-Overfull \hbox (0.56pt too wide) in paragraph at lines 322--322
+Overfull \hbox (0.56pt too wide) in paragraph at lines 323--323
 []\TU/lmr/m/n/10 2.1.1[]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
 
-Overfull \hbox (0.56pt too wide) in paragraph at lines 323--323
+Overfull \hbox (0.56pt too wide) in paragraph at lines 324--324
 []\TU/lmr/m/n/10 2.2.1[]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
@@ -2026,12 +2026,12 @@ Overfull \hbox (0.252pt too wide) detected at line 30
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 418--418
+Overfull \hbox (6.0pt too wide) in paragraph at lines 419--419
  [][][][][][][] 
  []
 
 [2]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 520--520
+Overfull \hbox (6.0pt too wide) in paragraph at lines 521--521
  [][][][][][][] 
  []
 
@@ -2061,12 +2061,12 @@ File: note.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-5-exercise-body.tex) [10]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1084--1084
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1085--1085
  [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1135--1135
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1136--1136
  [][][][][][][] 
  []
 
@@ -2080,17 +2080,17 @@ File: warning.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-7-exercise-body.tex) [13]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1274--1274
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1275--1275
  [][][][][][][] 
  []
 
 [14]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1347--1347
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1348--1348
  [][][][][][][] 
  []
 
 [15]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1433--1433
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1434--1434
  [][][][][][][] 
  []
 
@@ -2098,12 +2098,12 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 1433--1433
 
 (./C++Primer_en-exercises-8-exercise-body.tex) [16]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1495.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 1496.
 \openout7 = `C++Primer_en-exercises-9-exercise-body.tex'.
 
 
 (./C++Primer_en-exercises-9-exercise-body.tex) [17]
-Overfull \hbox (6.85715pt too wide) in paragraph at lines 1571--1577
+Overfull \hbox (6.85715pt too wide) in paragraph at lines 1572--1578
 []\TU/lmr/m/n/10 As usual, we begin by including the headers that we use, [][]\
 TU/lmtt/m/n/10 iostream []\TU/lmr/m/n/10 from the library and our own [][]\TU/l
 mtt/m/n/10 Sales_item.h[]\TU/lmr/m/n/10 .
@@ -2191,12 +2191,12 @@ Overfull \hbox (0.252pt too wide) detected at line 104
 ) [24
 
 ]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1921--1921
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1922--1922
  [][][][][][][] 
  []
 
 [25]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1973--1973
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1974--1974
  [][][][][][][] 
  []
 
@@ -2204,12 +2204,12 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 1973--1973
 \openout7 = `C++Primer_en-exercises-11-exercise-body.tex'.
 
  (./C++Primer_en-exercises-11-exercise-body.tex)
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2043--2043
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2044--2044
  [][][][][][][] 
  []
 
 [27] [28]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2129--2129
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2130--2130
  [][][][][][][] 
  []
 
@@ -2222,7 +2222,7 @@ File: bestpractices.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-13-exercise-body.tex) [31]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2383--2383
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2384--2384
  [][][][][][][] 
  []
 
@@ -2238,7 +2238,7 @@ File: note.png Graphic file (type bmp)
 File: tip.png Graphic file (type bmp)
 <tip.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2519--2519
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2520--2520
  [][][][][][][] 
  []
 
@@ -2248,7 +2248,7 @@ File: note.png Graphic file (type bmp)
 \openout7 = `C++Primer_en-exercises-15-exercise-body.tex'.
 
  (./C++Primer_en-exercises-15-exercise-body.tex)
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2592--2592
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2593--2593
  [][][][][][][] 
  []
 
@@ -2259,7 +2259,7 @@ File: bestpractices.png Graphic file (type bmp)
 \openout7 = `C++Primer_en-exercises-16-exercise-body.tex'.
 
  (./C++Primer_en-exercises-16-exercise-body.tex)
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2718--2718
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2719--2719
  [][][][][][][] 
  []
 
@@ -2284,12 +2284,12 @@ File: warning.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2980--2980
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2981--2981
  [][][][][][][] 
  []
 
 [41]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 3033--3033
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3034--3034
  [][][][][][][] 
  []
 
@@ -2314,7 +2314,7 @@ File: note.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-21-exercise-body.tex)
-Overfull \hbox (6.0pt too wide) in paragraph at lines 3408--3408
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3409--3409
  [][][][][][][] 
  []
 
@@ -2335,7 +2335,7 @@ File: bestpractices.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-24-exercise-body.tex)
-Underfull \hbox (badness 1831) in paragraph at lines 10--3731
+Underfull \hbox (badness 1831) in paragraph at lines 10--3732
 []\TU/lmr/bx/n/10 Exercise 2.32: \TU/lmr/m/n/10 Is the following code legal or 
 not? If not, how might you make it legal?
  []
@@ -2372,12 +2372,12 @@ File: bestpractices.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-29-exercise-body.tex) [60] [61]
-Underfull \hbox (badness 10000) in paragraph at lines 4428--4429
+Underfull \hbox (badness 10000) in paragraph at lines 4429--4430
 []\TU/lmr/m/n/10 Preprocessor directive that determines
  []
 
 [62]
-Underfull \hbox (badness 10000) in paragraph at lines 4429--4431
+Underfull \hbox (badness 10000) in paragraph at lines 4430--4432
 []\TU/lmr/m/n/10 Preprocessor directive that determines
  []
 
@@ -2426,7 +2426,7 @@ Overfull \hbox (4.878pt too wide) detected at line 181
 ) [64
 
 ]
-Overfull \hbox (12.65207pt too wide) in paragraph at lines 4476--4478
+Overfull \hbox (12.65207pt too wide) in paragraph at lines 4477--4479
 []\TU/lmr/m/n/10 A [][]\TU/lmtt/m/n/10 using []\TU/lmr/m/n/10 declaration lets 
 us use a name from a namespace without qualifying the name with a [][]\TU/lmtt/
 m/n/10 namespace_name::
@@ -2439,7 +2439,7 @@ File: warning.png Graphic file (type bmp)
 
  (./C++Primer_en-exercises-30-exercise-body.tex)
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 4546.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 4547.
 File: note.png Graphic file (type bmp)
 <note.png>
  [66] [67]
@@ -2455,7 +2455,7 @@ File: warning.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-31-exercise-body.tex) [70]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 4927--4927
+Overfull \hbox (6.0pt too wide) in paragraph at lines 4928--4928
  [][][][][][][] 
  []
 
@@ -2466,7 +2466,7 @@ File: note.png Graphic file (type bmp)
 File: warning.png Graphic file (type bmp)
 <warning.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 5091--5091
+Overfull \hbox (6.0pt too wide) in paragraph at lines 5092--5092
  [][][][][][][] 
  []
 
@@ -2481,7 +2481,7 @@ File: note.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-33-exercise-body.tex) [77]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 5429--5429
+Overfull \hbox (6.0pt too wide) in paragraph at lines 5430--5430
  [][][][][][][] 
  []
 
@@ -2498,7 +2498,7 @@ File: warning.png Graphic file (type bmp)
 File: tip.png Graphic file (type bmp)
 <tip.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 5638--5638
+Overfull \hbox (6.0pt too wide) in paragraph at lines 5639--5639
  [][][][][][][] 
  []
 
@@ -2508,19 +2508,19 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 5638--5638
 File: note.png Graphic file (type bmp)
 <note.png>
  [81]
-Underfull \hbox (badness 10000) in paragraph at lines 5762--5763
+Underfull \hbox (badness 10000) in paragraph at lines 5763--5764
 
  []
 
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 5803--5803
+Overfull \hbox (6.0pt too wide) in paragraph at lines 5804--5804
  [][][][][][][] 
  []
 
 [82]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 5830--5830
+Overfull \hbox (6.0pt too wide) in paragraph at lines 5831--5831
  [][][][][][][] 
  []
 
@@ -2581,7 +2581,7 @@ File: tip.png Graphic file (type bmp)
 File: warning.png Graphic file (type bmp)
 <warning.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 6711--6711
+Overfull \hbox (6.0pt too wide) in paragraph at lines 6712--6712
  [][][][][][][] 
  []
 
@@ -2600,17 +2600,17 @@ File: note.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-43-exercise-body.tex) [99]
-Underfull \hbox (badness 10000) in paragraph at lines 6987--6989
+Underfull \hbox (badness 10000) in paragraph at lines 6988--6990
 []\TU/lmr/m/n/10 Null-terminated character array.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7015--7020
+Underfull \hbox (badness 10000) in paragraph at lines 7016--7021
 []\TU/lmr/m/n/10 Operations on [][]\TU/lmtt/m/n/10 vector []\TU/lmr/m/n/10 or
  []
 
 
-Overfull \hbox (13.62158pt too wide) in paragraph at lines 7039--7042
+Overfull \hbox (13.62158pt too wide) in paragraph at lines 7040--7043
 []\TU/lmr/m/n/10 makes name accessible without the [][]\TU/lmtt/m/n/10 namespac
 e:: prefix[]\TU/lmr/m/n/10 . 
  []
@@ -2693,14 +2693,14 @@ Overfull \hbox (4.878pt too wide) detected at line 238
 \openout7 = `C++Primer_en-exercises-44-exercise-body.tex'.
 
  (./C++Primer_en-exercises-44-exercise-body.tex) [105]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 7320--7320
+Overfull \hbox (6.0pt too wide) in paragraph at lines 7321--7321
  [][][][][][][] 
  []
 
 \openout7 = `C++Primer_en-exercises-45-exercise-body.tex'.
 
 (./C++Primer_en-exercises-45-exercise-body.tex) [106]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 7413--7413
+Overfull \hbox (6.0pt too wide) in paragraph at lines 7414--7414
  [][][][][][][] 
  []
 
@@ -2720,12 +2720,12 @@ File: note.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-48-exercise-body.tex) [112]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 7869--7869
+Overfull \hbox (6.0pt too wide) in paragraph at lines 7870--7870
  [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 7913--7913
+Overfull \hbox (6.0pt too wide) in paragraph at lines 7914--7914
  [][][][][][][] 
  []
 
@@ -2750,7 +2750,7 @@ File: warning.png Graphic file (type bmp)
 File: warning.png Graphic file (type bmp)
 <warning.png>
  [117]
-Overfull \hbox (1.87314pt too wide) in paragraph at lines 8284--8286
+Overfull \hbox (1.87314pt too wide) in paragraph at lines 8285--8287
 []\TU/lmr/m/n/10 We can obtain a value indicating that student 27 passed by usi
 ng the left-shift operator and an [][]\TU/lmtt/m/n/10 unsigned long
  []
@@ -2771,22 +2771,22 @@ ng the left-shift operator and an [][]\TU/lmtt/m/n/10 unsigned long
 
 
 (./C++Primer_en-exercises-55-exercise-body.tex) [122]
-Underfull \hbox (badness 10000) in paragraph at lines 8644--8649
+Underfull \hbox (badness 10000) in paragraph at lines 8645--8650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8653--8668
+Underfull \hbox (badness 10000) in paragraph at lines 8654--8669
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8653--8668
+Underfull \hbox (badness 10000) in paragraph at lines 8654--8669
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8684--8690
+Underfull \hbox (badness 10000) in paragraph at lines 8685--8691
 
  []
 
@@ -2797,7 +2797,7 @@ File: warning.png Graphic file (type bmp)
 File: warning.png Graphic file (type bmp)
 <warning.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 8823--8823
+Overfull \hbox (6.0pt too wide) in paragraph at lines 8824--8824
  [][][][][][][] 
  []
 
@@ -2808,16 +2808,13 @@ File: warning.png Graphic file (type bmp)
 
  (./C++Primer_en-exercises-56-exercise-body.tex)
 
-LaTeX Warning: Reference `' on page 126 undefined on input line 8887.
-
-
-LaTeX Warning: Reference `' on page 126 undefined on input line 8899.
+LaTeX Warning: Reference `' on page 126 undefined on input line 8888.
 
 
 LaTeX Warning: Reference `' on page 126 undefined on input line 8900.
 
 
-LaTeX Warning: Reference `' on page 126 undefined on input line 8914.
+LaTeX Warning: Reference `' on page 126 undefined on input line 8901.
 
 
 LaTeX Warning: Reference `' on page 126 undefined on input line 8915.
@@ -2835,36 +2832,39 @@ LaTeX Warning: Reference `' on page 126 undefined on input line 8918.
 LaTeX Warning: Reference `' on page 126 undefined on input line 8919.
 
 
-LaTeX Warning: Reference `' on page 126 undefined on input line 8921.
+LaTeX Warning: Reference `' on page 126 undefined on input line 8920.
 
 
 LaTeX Warning: Reference `' on page 126 undefined on input line 8922.
 
 
-LaTeX Warning: Reference `' on page 126 undefined on input line 8958.
+LaTeX Warning: Reference `' on page 126 undefined on input line 8923.
+
+
+LaTeX Warning: Reference `' on page 126 undefined on input line 8959.
 
 [126] [127]
-Underfull \hbox (badness 10000) in paragraph at lines 8988--8992
+Underfull \hbox (badness 10000) in paragraph at lines 8989--8993
 []\TU/lmr/m/n/10 A conversion from one
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8995--8996
+Underfull \hbox (badness 10000) in paragraph at lines 8996--8997
 []\TU/lmr/m/n/10 Operators that take two
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8997--8998
+Underfull \hbox (badness 10000) in paragraph at lines 8998--8999
 []\TU/lmr/m/n/10 An expression involving
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9013--9017
+Underfull \hbox (badness 10000) in paragraph at lines 9014--9018
 []\TU/lmr/m/n/10 conversions that take a
  []
 
 [128]
-Underfull \hbox (badness 5637) in paragraph at lines 9050--9051
+Underfull \hbox (badness 5637) in paragraph at lines 9051--9052
 []\TU/lmr/m/n/10 Operators that take a single
  []
 
@@ -2982,7 +2982,7 @@ File: bestpractices.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-66-exercise-body.tex) [147] [148]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 10447--10447
+Overfull \hbox (6.0pt too wide) in paragraph at lines 10448--10448
  [][][][][][][] 
  []
 
@@ -2990,7 +2990,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 10447--10447
 \openout7 = `C++Primer_en-exercises-67-exercise-body.tex'.
 
  (./C++Primer_en-exercises-67-exercise-body.tex) [150] [151] [152]
-Underfull \hbox (badness 10000) in paragraph at lines 10603--10604
+Underfull \hbox (badness 10000) in paragraph at lines 10604--10605
 []\TU/lmr/m/n/10 Statement that iterates
  []
 
@@ -3058,7 +3058,7 @@ File: bestpractices.png Graphic file (type bmp)
 
 (./C++Primer_en-exercises-70-exercise-body.tex) [158]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <9> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 10951.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 10952.
 
 \openout7 = `C++Primer_en-exercises-71-exercise-body.tex'.
 
@@ -3097,7 +3097,7 @@ File: note.png Graphic file (type bmp)
 
 (./C++Primer_en-exercises-75-exercise-body.tex)
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 11538.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 11539.
 
 File: warning.png Graphic file (type bmp)
 <warning.png>
@@ -3117,10 +3117,10 @@ File: tip.png Graphic file (type bmp)
 <tip.png>
  [171]
 
-LaTeX Warning: Reference `(' on page 172 undefined on input line 11925.
+LaTeX Warning: Reference `(' on page 172 undefined on input line 11926.
 
 
-LaTeX Warning: Reference `)' on page 172 undefined on input line 11925.
+LaTeX Warning: Reference `)' on page 172 undefined on input line 11926.
 
 [172]
 File: note.png Graphic file (type bmp)
@@ -3136,7 +3136,7 @@ File: note.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
  [176]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 12285--12285
+Overfull \hbox (6.0pt too wide) in paragraph at lines 12286--12286
  [][][][][][][] 
  []
 
@@ -3165,7 +3165,7 @@ File: note.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-82-exercise-body.tex) [182] [183]
-Underfull \hbox (badness 10000) in paragraph at lines 12779--12782
+Underfull \hbox (badness 10000) in paragraph at lines 12780--12783
 
  []
 
@@ -3193,13 +3193,13 @@ File: warning.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
  [188]
-Overfull \hbox (14.30313pt too wide) in paragraph at lines 13130--13131
+Overfull \hbox (14.30313pt too wide) in paragraph at lines 13131--13132
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][] 
  []
 
 
-Overfull \hbox (30.05313pt too wide) in paragraph at lines 13132--13133
+Overfull \hbox (30.05313pt too wide) in paragraph at lines 13133--13134
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][] 
  []
@@ -3208,7 +3208,7 @@ Overfull \hbox (30.05313pt too wide) in paragraph at lines 13132--13133
 \openout7 = `C++Primer_en-exercises-86-exercise-body.tex'.
 
  (./C++Primer_en-exercises-86-exercise-body.tex) [190]
-Underfull \hbox (badness 7379) in paragraph at lines 13283--13285
+Underfull \hbox (badness 7379) in paragraph at lines 13284--13286
 []\TU/lmr/m/n/10 Library class that represents a
  []
 
@@ -3260,7 +3260,7 @@ Overfull \hbox (4.878pt too wide) detected at line 447
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 13427--13427
+Overfull \hbox (6.0pt too wide) in paragraph at lines 13428--13428
  [][][][][][][] 
  []
 
@@ -3313,7 +3313,7 @@ File: tip.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 14226--14226
+Overfull \hbox (6.0pt too wide) in paragraph at lines 14227--14227
  [][][][][][][] 
  []
 
@@ -3336,7 +3336,7 @@ File: note.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 14591--14591
+Overfull \hbox (6.0pt too wide) in paragraph at lines 14592--14592
  [][][][][][][] 
  []
 
@@ -3379,7 +3379,7 @@ File: note.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 15194--15194
+Overfull \hbox (6.0pt too wide) in paragraph at lines 15195--15195
  [][][][][][][] 
  []
 
@@ -3432,7 +3432,7 @@ File: bestpractices.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-105-exercise-body.tex) [230] [231]
-Underfull \hbox (badness 10000) in paragraph at lines 16070--16073
+Underfull \hbox (badness 10000) in paragraph at lines 16071--16074
 []\TU/lmr/m/n/10 Constructor with a
  []
 
@@ -3494,7 +3494,7 @@ Overfull \hbox (4.878pt too wide) detected at line 478
 
 ]
 
-LaTeX Warning: Reference `,' on page 236 undefined on input line 16216.
+LaTeX Warning: Reference `,' on page 236 undefined on input line 16217.
 
 [236]
 File: note.png Graphic file (type bmp)
@@ -3503,12 +3503,12 @@ File: note.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 16391--16391
+Overfull \hbox (6.0pt too wide) in paragraph at lines 16392--16392
  [][][][][][][] 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 16416--16416
+Overfull \hbox (6.0pt too wide) in paragraph at lines 16417--16417
  [][][][][][][] 
  []
 
@@ -3521,7 +3521,7 @@ File: tip.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 16528--16528
+Overfull \hbox (6.0pt too wide) in paragraph at lines 16529--16529
  [][][][][][][] 
  []
 
@@ -3602,7 +3602,7 @@ File: note.png Graphic file (type bmp)
 File: tip.png Graphic file (type bmp)
 <tip.png>
 
-Overfull \hbox (1.72514pt too wide) in paragraph at lines 17146--17148
+Overfull \hbox (1.72514pt too wide) in paragraph at lines 17147--17149
 []\TU/lmr/m/n/10 If the program needs to insert or delete elements in the middl
 e of the container, use a [][]\TU/lmtt/m/n/10 list []\TU/lmr/m/n/10 or [][]\TU/
 lmtt/m/n/10 forward_list[]\TU/lmr/m/n/10 . 
@@ -3615,18 +3615,18 @@ File: bestpractices.png Graphic file (type bmp)
 (./C++Primer_en-exercises-111-exercise-body.tex)
 
 LaTeX Warning: Reference `tab:operations to find elements in an associative con
-tainer' on page 251 undefined on input line 17196.
+tainer' on page 251 undefined on input line 17197.
 
 
 LaTeX Warning: Reference `tab:operations to find elements in an associative con
-tainer' on page 251 undefined on input line 17196.
+tainer' on page 251 undefined on input line 17197.
 
 [251]
 Overfull \vbox (9.57713pt too high) has occurred while \output is active []
 
 
 [252]
-Underfull \hbox (badness 10000) in paragraph at lines 17283--17285
+Underfull \hbox (badness 10000) in paragraph at lines 17284--17286
 []\TU/lmr/m/n/10 Older compilers may require a space between the angle brackets
 , for example,
  []
@@ -3642,7 +3642,7 @@ File: note.png Graphic file (type bmp)
 File: warning.png Graphic file (type bmp)
 <warning.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 17355--17355
+Overfull \hbox (6.0pt too wide) in paragraph at lines 17356--17356
  [][][][][][][] 
  []
 
@@ -3670,7 +3670,7 @@ File: note.png Graphic file (type bmp)
 
 (./C++Primer_en-exercises-116-exercise-body.tex)
 
-LaTeX Warning: Reference `a' on page 258 undefined on input line 17645.
+LaTeX Warning: Reference `a' on page 258 undefined on input line 17646.
 
 File: warning.png Graphic file (type bmp)
 <warning.png>
@@ -3689,10 +3689,10 @@ File: note.png Graphic file (type bmp)
 
 (./C++Primer_en-exercises-118-exercise-body.tex) [260]
 
-LaTeX Warning: Reference `(' on page 261 undefined on input line 17848.
+LaTeX Warning: Reference `(' on page 261 undefined on input line 17849.
 
 
-LaTeX Warning: Reference `)' on page 261 undefined on input line 17848.
+LaTeX Warning: Reference `)' on page 261 undefined on input line 17849.
 
 [261] [262]
 Chapter 10.
@@ -4003,7 +4003,7 @@ Overfull \hbox (4.878pt too wide) detected at line 751
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.80304pt too wide) in paragraph at lines 18535--18536
+Overfull \hbox (6.80304pt too wide) in paragraph at lines 18536--18537
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -4013,13 +4013,13 @@ File: note.png Graphic file (type bmp)
 \openout7 = `C++Primer_en-exercises-121-exercise-body.tex'.
 
  (./C++Primer_en-exercises-121-exercise-body.tex)
-Overfull \hbox (3.28407pt too wide) in paragraph at lines 18617--18619
+Overfull \hbox (3.28407pt too wide) in paragraph at lines 18618--18620
 []\TU/lmr/m/n/10 A derived class must declare each inherited member function it
  intends to override. Therefore, our [][]\TU/lmtt/m/n/10 Bulk_quote
  []
 
 [287]
-Overfull \hbox (3.04726pt too wide) in paragraph at lines 18680--18680
+Overfull \hbox (3.04726pt too wide) in paragraph at lines 18681--18681
  [][][][]\TU/lmtt/m/n/10 bookNo 
  []
 
@@ -4031,7 +4031,7 @@ File: note.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 18777--18777
+Overfull \hbox (6.0pt too wide) in paragraph at lines 18778--18778
  [][][][][][][] 
  []
 
@@ -4050,7 +4050,7 @@ File: note.png Graphic file (type bmp)
 File: warning.png Graphic file (type bmp)
 <warning.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19026--19026
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19027--19027
  [][][][][][][] 
  []
 
@@ -4060,7 +4060,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 19026--19026
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19112--19112
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19113--19113
  [][][][][][][] 
  []
 
@@ -4080,7 +4080,7 @@ File: warning.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19400--19400
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19401--19401
  [][][][][][][] 
  []
 
@@ -4090,7 +4090,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 19400--19400
 File: tip.png Graphic file (type bmp)
 <tip.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19573--19573
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19574--19574
  [][][][][][][] 
  []
 
@@ -4110,7 +4110,7 @@ File: note.png Graphic file (type bmp)
 File: bestpractices.png Graphic file (type bmp)
 <bestpractices.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19840--19840
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19841--19841
  [][][][][][][] 
  []
 
@@ -4131,7 +4131,7 @@ File: warning.png Graphic file (type bmp)
 File: warning.png Graphic file (type bmp)
 <warning.png>
  [309]
-Overfull \hbox (5.75308pt too wide) in paragraph at lines 20168--20169
+Overfull \hbox (5.75308pt too wide) in paragraph at lines 20169--20170
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][] 
@@ -4155,7 +4155,7 @@ File: warning.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-132-exercise-body.tex)
-Overfull \hbox (22.55304pt too wide) in paragraph at lines 20426--20427
+Overfull \hbox (22.55304pt too wide) in paragraph at lines 20427--20428
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][] 
  []
@@ -4164,27 +4164,27 @@ Overfull \hbox (22.55304pt too wide) in paragraph at lines 20426--20427
 \openout7 = `C++Primer_en-exercises-133-exercise-body.tex'.
 
  [315] (./C++Primer_en-exercises-133-exercise-body.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 20597--20607
+Underfull \hbox (badness 10000) in paragraph at lines 20598--20608
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20612--20617
+Underfull \hbox (badness 10000) in paragraph at lines 20613--20618
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20631--20635
+Underfull \hbox (badness 10000) in paragraph at lines 20632--20636
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20639--20642
+Underfull \hbox (badness 10000) in paragraph at lines 20640--20643
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20651--20656
+Underfull \hbox (badness 10000) in paragraph at lines 20652--20657
 
  []
 
