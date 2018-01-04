@@ -13875,7 +13875,7 @@ member that has a class type, and that class doesn’t have a default constructo
 the compiler can’t initialize that member. For such classes, we must define our own
 version of the default constructor. Otherwise, the class will not have a usable default
 constructor. We’ll see in \S~\ref{subsec:preventing copies} (p. \pageref{subsec:preventing copies}) additional circumstances that prevent the compiler from generating an appropriate default constructor.
-			\paragraph{Defining the Sales\texttt{\_}data Constructors}
+			\paragraph{Defining the \texttt{Sales\_data} Constructors}
 For our \verb|Sales_data| class we’ll define four constructors with the following
 parameters:		
 \begin{itemize}
@@ -17846,12 +17846,255 @@ remainder of this chapter.
 		\subsection{Adding Elements to a Sequential Container}
 Excepting \verb|array|, all of the library containers provide flexible memory management.
 We can add or remove elements dynamically changing the size of the container at run
-time. Table \ref (p. \pageref) lists the operations that add elements to a (non\verb|array|)
+time. Table \ref{tab:operations that add elements to a sequential container} (p. \pageref{tab:operations that add elements to a sequential container}) lists the operations that add elements to a (non\verb|array|)
 sequential container.
+\begin{table}[H]
+\caption{Operations That Add Elements to a Sequential Container}
+\label{tab:operations that add elements to a sequential container}
+\centering
+\begin{tabular}{| ll |}
+\hline
+\multicolumn{2}{| c |}{\textbf{These operations change the size of the container; they are not supported by \texttt{array}.}} \\
+\multicolumn{2}{| c |}{\textbf{\texttt{forward\_list} has special versions of \texttt{insert} and \texttt{emplace}; see \S~\ref{subsec: specialized forwardlist operations} (p. \pageref{subsec: specialized forwardlist operations}).}} \\
+\multicolumn{2}{| c |}{\textbf{\texttt{push\_back} and \texttt{emplace\_back} not valid for \texttt{forward\_list}.}} \\
+\multicolumn{2}{| c |}{\textbf{\texttt{push\_front} and \texttt{emplace\_front} not valid for \texttt{vector} or \texttt{string}.}} \\
+& \\
+\makecell[tl]{\texttt{c.push\_back(t)} \\ \texttt{c.emplace\_back(args)}} & \makecell[tl]{Creates an element with value \texttt{t} or constructed from \texttt{args} at the \\ end of \texttt{c}. Returns \texttt{void}.} \\
+\makecell[tl]{\texttt{c.push\_front(t)} \\ \texttt{c.emplace\_front(args)}} & \makecell[tl]{Creates an element with value \texttt{t} or constructed from \texttt{args} on the \\ front of \texttt{c}. Returns \texttt{void}.} \\
+\makecell[tl]{\texttt{c.insert(p,t)} \\ \texttt{c.emplace(p,args)}} & \makecell[tl]{Creates an element with value \texttt{t} or constructed from \texttt{args} before \\ the element denoted by iterator \texttt{p}. Returns an iterator referring \\ to the element that was added.} \\
+\makecell[tl]{\texttt{c.insert(p,n,t)}} & \makecell[tl]{Inserts \texttt{n} elements with value \texttt{t} before the element denoted by \\ iterator \texttt{p}. Returns an iterator to the first element inserted; if \texttt{n} is \\ zero, returns \texttt{p}.} \\
+\makecell[tl]{\texttt{c.insert(p,b,e)}} & \makecell[tl]{Inserts the elements from the range denoted by iterators \texttt{b} and \texttt{e} \\ before the element denoted by iterator \texttt{p}. \texttt{b} and \texttt{e} may not refer \\ to elements in \texttt{c}. Returns an iterator to the first element inserted; \\ if the range is empty, return \texttt{p}.} \\
+\makecell[tl]{\texttt{c.insert(p,il)}} & \makecell[tl]{\texttt{il} is a braced list of element values. Inserts the given values \\ before the element denoted by the iterator \texttt{p}. Returns an iterator \\ to the first inserted element; if the list is empty returns \texttt{p}.} \\
+\hline
+\end{tabular}
+\end{table}
 
+\begin{warning}
+Adding elements to a \verb|vector|, \verb|string|, or \verb|deque| potentially invalidates all existing iterators, references, and pointers into the container.
+\end{warning}
+
+When we use these operations, we must remember that the containers use different
+strategies for allocating elements and that these strategies affect performance. Adding
+elements anywhere but at the end of a \verb|vector| or \verb|string|, or anywhere but the
+beginning or end of a \verb|deque|, requires elements to be moved. Moreover, adding
+elements to a \verb|vector| or a \verb|string| may cause the entire object to be reallocated.
+Reallocating an object requires allocating new memory and moving elements from the
+old space to the new.
+			\paragraph{Using \texttt{push\_back}}
+In \S~\ref{subsec:adding elements to a vector} (p. \pageref{subsec:adding elements to a vector}) we saw that \verb|push_back| appends an element to the back of a \verb|vector|. Aside from \verb|array| and \verb|forward_list|, every sequential container
+(including the \verb|string| type) supports \verb|push_back|.
+
+As an example, the following loop reads one \verb|string| at a time into \verb|word|:
+\begin{lstlisting}
+// read from standard input, putting each word onto the end of container
+string word;
+while (cin >> word)
+container.push_back(word);
+\end{lstlisting}
+
+The call to \verb|push_back| creates a new element at the end of \verb|container|, increasing
+the \verb|size| of \verb|container| by 1. The value of that element is a copy of \verb|word|. The type
+of \verb|container| can be any of \verb|list|, \verb|vector|, or \verb|deque|.
+
+Because \verb|string| is just a container of characters, we can use \verb|push_back| to add
+characters to the end of the \verb|string|:
+\begin{lstlisting}
+void pluralize(size_t cnt, string &word) {
+   if (cnt > 1)
+      word.push_back('s'); // same as word += 's'
+}
+\end{lstlisting}
+
+\begin{complement}{Key Concept: Container Elements Are Copies}
+When we use an object to initialize a container, or insert an object into a container, a copy of that object’s value is placed in the container, not the object itself. Just as when we pass an object to a nonreference parameter (\S~\ref{subsec:passing arguments by value}, p. \pageref{subsec:passing arguments by value}), there is no relationship between the element in the container and the object from which that value originated. Subsequent changes to the element in the container have no effect on the original object, and vice versa.
+\end{complement}
+			\paragraph{Using \texttt{push\_front}}
+In addition to \verb|push_back|, the \verb|list|, \verb|forward_list|, and \verb|deque| containers support
+an analogous operation named \verb|push_front|. This operation inserts a new element at
+the front of the container:
+\begin{lstlisting}
+list<int> ilist;
+// add elements to the start of ilist
+for (size_t ix = 0; ix != 4; ++ix)
+   ilist.push_front(ix);
+\end{lstlisting}
+This loop adds the elements 0, 1, 2, 3 to the beginning of \verb|ilist|. Each element is
+inserted at the new beginning of the \verb|list|. That is, when we insert 1, it goes in front
+of 0, and 2 in front of 1, and so forth. Thus, the elements added in a loop such as
+this one wind up in reverse order. After executing this loop, \verb|ilist| holds the
+sequence 3,2,1,0.
+
+Note that \verb|deque|, which like \verb|vector| offers fast random access to its elements,
+provides the \verb|push_front| member even though \verb|vector| does not. A \verb|deque|
+guarantees constant-time \verb|insert| and \verb|delete| of elements at the beginning and end of
+the container. As with \verb|vector|, inserting elements other than at the front or back of a
+\verb|deque| is a potentially expensive operation.
+			\paragraph{Adding Elements at a Specified Point in the Container}
+The \verb|push_back| and \verb|push_front| operations provide convenient ways to insert a
+single element at the end or beginning of a sequential container. More generally, the
+insert members let us insert zero or more elements at any point in the container.
+The \verb|insert| members are supported for \verb|vector|, \verb|deque|, \verb|list|, and \verb|string|.
+\verb|forward_list| provides specialized versions of these members that we’ll cover in \S~\ref{subsec: specialized forwardlist operations} (p. \pageref{subsec: specialized forwardlist operations}).
+
+Each of the \verb|insert| functions takes an iterator as its first argument. The iterator
+indicates where in the container to put the element(s). It can refer to any position in
+the container, including one past the end of the container. Because the iterator might
+refer to a nonexistent element off the end of the container, and because it is useful to
+have a way to insert elements at the beginning of a container, element(s) are inserted
+before the position denoted by the iterator. For example, this statement
+\begin{lstlisting}
+slist.insert(iter, "Hello!"); // insert "Hello!" just before iter
+\end{lstlisting}
+inserts a \verb|string| with value \verb|"Hello"| just before the element denoted by \verb|iter|.
+
+Even though some containers do not have a \verb|push_front| operation, there is no
+similar constraint on \verb|insert|. We can \verb|insert| elements at the beginning of a
+container without worrying about whether the container has \verb|push_front|:
+\begin{lstlisting}
+vector<string> svec;
+list<string> slist;
+// equivalent to calling slist.push_front("Hello!");
+slist.insert(slist.begin(), "Hello!");
+// no push_front on vector but we can insert before begin()
+// warning: inserting anywhere but at the end of a vector might be slow
+svec.insert(svec.begin(), "Hello!");
+\end{lstlisting}
+
+\begin{warning}
+It is legal to insert anywhere in a \verb|vector|, \verb|deque|, or \verb|string|. However,
+doing so can be an expensive operation.
+\end{warning}
+			\paragraph{Inserting a Range of Elements}
+The arguments to \verb|insert| that appear after the initial iterator argument are
+analogous to the container constructors that take the same parameters. The version
+that takes an element count and a value adds the specified number of identical
+elements before the given position:
+\begin{lstlisting}
+svec.insert(svec.end(), 10, "Anna");
+\end{lstlisting}
+This code inserts ten elements at the end of \verb|svec| and initializes each of those
+elements to the \verb|string| \verb|"Anna"|.
+
+The versions of \verb|insert| that take a pair of iterators or an initializer list insert the
+elements from the given range before the given position:
+\begin{lstlisting}
+vector<string> v = {"quasi", "simba", "frollo", "scar"};
+// insert the last two elements of v at the beginning of slist
+slist.insert(slist.begin(), v.end() - 2, v.end());
+slist.insert(slist.end(), {"these", "words", "will",
+"go", "at", "the", "end"});
+// run-time error: iterators denoting the range to copy from
+// must not refer to the same container as the one we are changing
+slist.insert(slist.begin(), slist.begin(), slist.end());
+\end{lstlisting}
+When we pass a pair of iterators, those iterators may not refer to the same container
+as the one to which we are adding elements.
+
+Under the new standard, the versions of \verb|insert| that take a count or a range
+return an iterator to the first element that was inserted. (In prior versions of the
+library, these operations returned \verb|void|.) If the range is empty, no elements are
+inserted, and the operation returns its first parameter.
+			\paragraph{Using the Return from insert}\label{par:using the return from insert}
+We can use the value returned by \verb|insert| to repeatedly insert elements at a specified
+position in the container:
+\begin{lstlisting}
+list<string> 1st;
+auto iter = 1st.begin();
+while (cin >> word)
+   iter = 1st.insert(iter, word); // same as calling push_front
+\end{lstlisting}
+
+\begin{note}
+It is important to understand how this loop operates—in particular, to
+understand why the loop is equivalent to calling \verb|push_front|.
+\end{note}
+Before the loop, we initialize \verb|iter| to \verb|lst.begin()|. The first call to \verb|insert| takes
+the \verb|string| we just read and puts it in front of the element denoted by \verb|iter|. The
+value returned by \verb|insert| is an iterator referring to this new element. We assign that
+iterator to \verb|iter| and repeat the \verb|while|, reading another word. As long as there are
+words to \verb|insert|, each trip through the \verb|while| inserts a new element ahead of \verb|iter|
+and reassigns to \verb|iter| the location of the newly inserted element. That element is the
+(new) first element. Thus, each iteration inserts an element ahead of the first element
+in the \verb|list|.
+			\paragraph{Using the Emplace Operations}
+The new standard introduced three new members—\verb|emplace_front|, \verb|emplace|, and
+\verb|emplace_back|—that construct rather than copy elements. These operations
+correspond to the \verb|push_front|, \verb|insert|, and \verb|push_back| operations in that they
+let us put an element at the front of the container, in front of a given position, or at
+the back of the container, respectively.
+
+When we call a \verb|push| or \verb|insert| member, we pass objects of the element type and
+those objects are copied into the container. When we call an \verb|emplace| member, we
+pass arguments to a constructor for the element type. The \verb|emplace| members use
+those arguments to construct an element directly in space managed by the container.
+For example, assuming \verb|c| holds \verb|Sales_data| (\S~\ref{lst:define the sales-data constructors}, p. \pageref{lst:define the sales-data constructors}) elements:
+\begin{lstlisting}
+// construct a Sales_data object at the end of c
+// uses the three-argument Sales_data constructor
+c.emplace_back("978-0590353403", 25, 15.99);
+// error: there is no version of push_back that takes three arguments
+c.push_back("978-0590353403", 25, 15.99);
+// ok: we create a temporary Sales_data object to pass to push_back
+c.push_back(Sales_data("978-0590353403", 25, 15.99));
+\end{lstlisting}
+The call to \verb|emplace_back| and the second call to \verb|push_back| both create new
+\verb|Sales_data| objects. In the call to \verb|emplace_back|, that object is created directly in
+space managed by the container. The call to \verb|push_back| creates a local temporary
+object that is pushed onto the container.
+
+The arguments to an \verb|emplace| function vary depending on the element type. The
+arguments must match a constructor for the element type:
+\begin{lstlisting}
+// iter refers to an element in c, which holds Sales_data elements
+c.emplace_back(); // uses the Sales_data default constructor
+c.emplace(iter, "999-999999999"); // uses Sales_data(string)
+// uses the Sales_data constructor that takes an ISBN, a count, and a price
+c.emplace_front("978-0590353403", 25, 15.99);
+\end{lstlisting}
+
+\begin{note}
+The \verb|emplace| functions construct elements in the container. The arguments to
+these functions must match a constructor for the element type.
+\end{note}
+
+\begin{exercises}
+\begin{question}
+Write a program to read a sequence of \verb|string|s from the
+standard input into a \verb|deque|. Use iterators to write a loop to print the
+elements in the \verb|deque|.
+\end{question}
+
+\begin{question}
+Rewrite the program from the previous exercise to use a
+\verb|list|. List the changes you needed to make.
+\end{question}
+
+\begin{question}
+Write a program to copy elements from a \verb|list<int>| into
+two \verb|deque|s. The even-valued elements should go into one \verb|deque| and the
+odd ones into the other.
+\end{question}
+
+\begin{question}
+Explain how the loop from page \pageref{par:using the return from insert} that used the return
+from \verb|insert| to add elements to a \verb|list| would work if we inserted into a
+\verb|vector| instead.
+\end{question}
+
+\begin{question}
+Assuming \verb|iv| is a \verb|vector| of \verb|int|s, what is wrong with the
+following program? How might you correct the problem(s)?
+\begin{lstlisting}
+vector<int>::iterator iter = iv.begin(), mid = iv.begin() + iv.size()/2;
+while (iter != mid)
+   if (*iter == some_val)
+      iv.insert(iter, 2 * some_val);
+\end{lstlisting}
+\end{question}
+\end{exercises}
 		\subsection{Accessing Elements}
 		\subsection{Erasing Elements}
-		\subsection{Specialized forward\_list Operations}
+		\subsection{Specialized \texttt{forward\_list} Operations}\label{subsec: specialized forwardlist operations}
 		\subsection{Resizing a Container}
 		\subsection{Container Operations May Invalidate Iterators}\label{subsec:container operations may invalidate iterators}
 	\section{How a vector Grows}\label{sec:how a vector grows}
