@@ -18092,7 +18092,31 @@ while (iter != mid)
 \end{lstlisting}
 \end{question}
 \end{exercises}
+
 		\subsection{Accessing Elements}
+Table \ref{tab:operations to access elements in a sequential container} lists the operations we can use to access elements in a sequential container.
+The access operations are undefined if the container has no elements.	
+\begin{table}[H]
+\caption{Operations to Access Elements in a Sequential Container}
+\label{tab:operations to access elements in a sequential container}
+\centering
+\begin{tabular}{| ll |}
+\hline
+\multicolumn{2}{| c |}{\textbf{\texttt{at} and subscript operator valid only for \texttt{string}, \texttt{vector}, \texttt{deque}, and \texttt{array}.}} \\
+\multicolumn{2}{| c |}{\textbf{\texttt{back} not valid for \texttt{forward\_list}.}} \\
+& \\
+\makecell[tl]{\texttt{c.back()}} & \makecell[tl]{Returns a reference to the last element in \texttt{c}. Undefined if \texttt{c} is empty.} \\
+\makecell[tl]{\texttt{c.front()}} & \makecell[tl]{Returns a reference to the first element in \texttt{c}. Undefined if \texttt{c} is empty.} \\
+\makecell[tl]{\texttt{c[n]}} & \makecell[tl]{Returns a reference to the element indexed by the unsigned integral \texttt{n}. \\ Undefined if \texttt{n>=c.size()}.} \\
+\makecell[tl]{\texttt{c.at(n)}} & \makecell[tl]{Returns a reference to the element indexed by \texttt{n}. \\ If the index is out of range, throws an \texttt{out\_of\_range} exception.} \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{warning}
+Calling \texttt{front} or \texttt{back} on an empty container, like using a subscript that is out of range, is a serious programmer error. 
+\end{warning}
+
 		\subsection{Erasing Elements}
 		\subsection{Specialized \texttt{forward\_list} Operations}\label{subsec: specialized forwardlist operations}
 		\subsection{Resizing a Container}

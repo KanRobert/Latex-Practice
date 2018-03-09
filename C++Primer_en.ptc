@@ -508,7 +508,7 @@
 \contentsline {paragraph}{Inserting a Range of Elements}{263}
 \contentsline {paragraph}{Using the Return from insert}{263}
 \contentsline {paragraph}{Using the Emplace Operations}{264}
-\contentsline {subsection}{\numberline {9.3.2}Accessing Elements}{265}
+\contentsline {subsection}{\numberline {9.3.2}Accessing Elements}{264}
 \contentsline {subsection}{\numberline {9.3.3}Erasing Elements}{265}
 \contentsline {subsection}{\numberline {9.3.4}Specialized \texttt {forward\_list} Operations}{265}
 \contentsline {subsection}{\numberline {9.3.5}Resizing a Container}{265}

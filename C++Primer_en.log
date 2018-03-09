@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.24)  4 JAN 2018 18:49
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.8.24)  9 MAR 2018 09:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3705,12 +3705,15 @@ File: note.png Graphic file (type bmp)
 <note.png>
 \openout7 = `C++Primer_en-exercises-119-exercise-body.tex'.
 
- (./C++Primer_en-exercises-119-exercise-body.tex
+ (./C++Primer_en-exercises-119-exercise-body.tex)
 
-LaTeX Warning: Reference `par:using the return from insert' on page 264 undefin
-ed on input line 28.
+LaTeX Warning: Reference `tab:operations to access elements in a sequential con
+tainer' on page 264 undefined on input line 18097.
 
-) [264] [265] [266]
+[264]
+File: warning.png Graphic file (type bmp)
+<warning.png>
+ [265] [266]
 Chapter 10.
 (./C++Primer_en.ptc
 Overfull \hbox (4.878pt too wide) detected at line 530
@@ -4019,7 +4022,7 @@ Overfull \hbox (4.878pt too wide) detected at line 757
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.80304pt too wide) in paragraph at lines 18779--18780
+Overfull \hbox (6.80304pt too wide) in paragraph at lines 18803--18804
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -4029,13 +4032,13 @@ File: note.png Graphic file (type bmp)
 \openout7 = `C++Primer_en-exercises-122-exercise-body.tex'.
 
  (./C++Primer_en-exercises-122-exercise-body.tex)
-Overfull \hbox (3.28407pt too wide) in paragraph at lines 18861--18863
+Overfull \hbox (3.28407pt too wide) in paragraph at lines 18885--18887
 []\TU/lmr/m/n/10 A derived class must declare each inherited member function it
  intends to override. Therefore, our [][]\TU/lmtt/m/n/10 Bulk_quote
  []
 
 [291]
-Overfull \hbox (3.04726pt too wide) in paragraph at lines 18924--18924
+Overfull \hbox (3.04726pt too wide) in paragraph at lines 18948--18948
  [][][][]\TU/lmtt/m/n/10 bookNo 
  []
 
@@ -4047,7 +4050,7 @@ File: note.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19021--19021
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19045--19045
  [][][][][][][] 
  []
 
@@ -4066,7 +4069,7 @@ File: note.png Graphic file (type bmp)
 File: warning.png Graphic file (type bmp)
 <warning.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19270--19270
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19294--19294
  [][][][][][][] 
  []
 
@@ -4076,7 +4079,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 19270--19270
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19356--19356
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19380--19380
  [][][][][][][] 
  []
 
@@ -4096,7 +4099,7 @@ File: warning.png Graphic file (type bmp)
 File: note.png Graphic file (type bmp)
 <note.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19644--19644
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19668--19668
  [][][][][][][] 
  []
 
@@ -4106,7 +4109,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 19644--19644
 File: tip.png Graphic file (type bmp)
 <tip.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19817--19817
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19841--19841
  [][][][][][][] 
  []
 
@@ -4126,7 +4129,7 @@ File: note.png Graphic file (type bmp)
 File: bestpractices.png Graphic file (type bmp)
 <bestpractices.png>
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 20084--20084
+Overfull \hbox (6.0pt too wide) in paragraph at lines 20108--20108
  [][][][][][][] 
  []
 
@@ -4147,7 +4150,7 @@ File: warning.png Graphic file (type bmp)
 File: warning.png Graphic file (type bmp)
 <warning.png>
  [313]
-Overfull \hbox (5.75308pt too wide) in paragraph at lines 20412--20413
+Overfull \hbox (5.75308pt too wide) in paragraph at lines 20436--20437
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][] 
@@ -4171,7 +4174,7 @@ File: warning.png Graphic file (type bmp)
 
 
 (./C++Primer_en-exercises-133-exercise-body.tex)
-Overfull \hbox (22.55304pt too wide) in paragraph at lines 20670--20671
+Overfull \hbox (22.55304pt too wide) in paragraph at lines 20694--20695
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][] 
  []
@@ -4180,27 +4183,27 @@ Overfull \hbox (22.55304pt too wide) in paragraph at lines 20670--20671
 \openout7 = `C++Primer_en-exercises-134-exercise-body.tex'.
 
  [319] (./C++Primer_en-exercises-134-exercise-body.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 20841--20851
+Underfull \hbox (badness 10000) in paragraph at lines 20865--20875
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20856--20861
+Underfull \hbox (badness 10000) in paragraph at lines 20880--20885
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20875--20879
+Underfull \hbox (badness 10000) in paragraph at lines 20899--20903
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20883--20886
+Underfull \hbox (badness 10000) in paragraph at lines 20907--20910
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20895--20900
+Underfull \hbox (badness 10000) in paragraph at lines 20919--20924
 
  []
 
@@ -4427,10 +4430,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 32767 strings out of 492998
- 685883 string characters out of 6137851
- 992605 words of memory out of 5000000
- 35816 multiletter control sequences out of 15000+600000
+ 32768 strings out of 492998
+ 685944 string characters out of 6137851
+ 992619 words of memory out of 5000000
+ 35817 multiletter control sequences out of 15000+600000
  534152 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,18n,100p,10360b,1626s stack positions out of 5000i,500n,10000p,200000b,80000s
