@@ -5525,7 +5525,7 @@ relational operators. Others, such as our \verb|Sales_item| class, do not. The o
 operations \verb|Sales_item| supports are those listed in \S~\ref{subsec:the sales-item class} (p. \pageref{subsec:the sales-item class}). Those operations
 did not include the equality or relational operators. As a result, we cannot compare
 two \verb|vector<Sales_item>| objects.
-			\paragraph{Computing a vector Index}
+			\paragraph{Computing a \texttt{vector} Index}\label{par:computing a vector Index}
 We can fetch a given element using the subscript operator (\S~\ref{subsec:dealing with the characters in a string}, p. \pageref{subsec:dealing with the characters in a string}). As with
 \verb|string|s, subscripts for \verb|vector| start at 0; the type of a subscript is the
 corresponding \verb|size_type|; and—assuming the \verb|vector| is non\verb|const|—we can write
@@ -10249,7 +10249,7 @@ could be better written using a loop. Rewrite the code to eliminate the \verb|go
 \end{question}
 \end{exercises}
 
-	\section{try Blocks and Exception Handling}
+	\section{\texttt{try} Blocks and Exception Handling}\label{sec:try blocks and exception handling}
 Exceptions are run-time anomalies—such as losing a database connection or
 encountering unexpected input—that exist outside the normal functioning of a
 program. Dealing with anomalous behavior can be one of the most difficult parts of
@@ -18116,7 +18116,78 @@ The access operations are undefined if the container has no elements.
 \begin{warning}
 Calling \texttt{front} or \texttt{back} on an empty container, like using a subscript that is out of range, is a serious programmer error. 
 \end{warning}
+Each sequential container, including \verb|array|, has a \verb|front| member, and all except
+\verb|forward_list| also have a \verb|back| member. These operations return a reference to
+the first and last element, respectively:
+\begin{lstlisting}[label={lst:visit first or last element of sequential container}]
+// check that there are elements before dereferencing an iterator or calling front or back
+if (!c.empty()) {
+   // val and val2 are copies of the value of the first element in c
+   auto val = *c.begin(), val2 = c.front();
+   // val3 and val4 are copies of the of the last element in c
+   auto last = c.end();
+   auto val3 = *(--last); // can't decrement forward_list iterators
+   auto val4 = c.back(); // not supported by forward_list
+}
+\end{lstlisting}
+This program obtains references to the first and last elements in \verb|c| in two different
+ways. The direct approach is to call \verb|front| or \verb|back|. Indirectly, we can obtain a
+reference to the same element by dereferencing the iterator returned by \verb|begin| or
+decrementing and then dereferencing the iterator returned by \verb|end|.
 
+Two things are noteworthy in this program: The \verb|end| iterator refers to the
+(nonexistent) element one past the end of the container. To fetch the last element we
+must first decrement that iterator. The other important point is that before calling
+\verb|front| or \verb|back| (or dereferencing the iterators from \verb|begin| or \verb|end|), we check that \verb|c|
+isn’t empty. If the container were empty, the operations inside the \verb|if| would be
+undefined.
+			\paragraph{The Access Members Return References}
+The members that access elements in a container (i.e., \verb|front|, \verb|back|, subscript, and
+\verb|at|) return references. If the container is a \verb|const| object, the return is a reference to
+\verb|const|. If the container is not \verb|const|, the return is an ordinary reference that we can
+use to change the value of the fetched element:
+\begin{lstlisting}
+if (!c.empty()) {
+   c.front() = 42; // assigns 42 to the first element in c
+   auto &v = c.back(); // get a reference to the last element
+   v = 1024; // changes the element in c
+   auto v2 = c.back(); // v2 is not a reference; it's a copy of c.back()
+   v2 = 0; // no change to the element in c
+}
+\end{lstlisting}
+As usual, if we use \verb|auto| to store the return from one of these functions and we want
+to use that variable to change the element, we must remember to define our variable
+as a reference type.
+			\paragraph{Subscripting and Safe Random Access}
+The containers that provide fast random access (\verb|string|, \verb|vector|, \verb|deque|, and
+\verb|array|) also provide the subscript operator (\S~\ref{par:computing a vector Index}, p. \pageref{par:computing a vector Index}). As we’ve seen, the subscript operator takes an index and returns a reference to the element at that
+position in the container. The index must be “in range,” (i.e., greater than or equal to
+0 and less than the size of the container). It is up to the program to ensure that the
+index is valid; the subscript operator does not check whether the index is in range.
+Using an out-of-range value for an index is a serious programming error, but one that
+the compiler will not detect.
+
+If we want to ensure that our index is valid, we can use the \verb|at| member instead.
+The \verb|at| member acts like the subscript operator, but if the index is invalid, at throws
+an \verb|out_of_range| exception (\S~\ref{sec:try blocks and exception handling}, p. \pageref{sec:try blocks and exception handling}):
+\begin{lstlisting}
+vector<string> svec; // empty vector
+cout << svec[0]; // run-time error: there are no elements in svec!
+cout << svec.at(0); // throws an out_of_range exception
+\end{lstlisting}
+
+\begin{exercises}
+\begin{question}
+In the first program in this section on page \pageref{lst:visit first or last element of sequential container}, what would
+the values of \verb|val|, \verb|val2|, \verb|val3|, and \verb|val4| be if \verb|c.size()| is 1?
+\end{question}
+
+\begin{question}
+Write a program that fetches the first element in a \verb|vector|
+using \verb|at|, the subscript operator, \verb|front|, and \verb|begin|. Test your program on
+an empty \verb|vector|.
+\end{question}
+\end{exercises}
 		\subsection{Erasing Elements}
 		\subsection{Specialized \texttt{forward\_list} Operations}\label{subsec: specialized forwardlist operations}
 		\subsection{Resizing a Container}
