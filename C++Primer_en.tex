@@ -18188,8 +18188,46 @@ using \verb|at|, the subscript operator, \verb|front|, and \verb|begin|. Test yo
 an empty \verb|vector|.
 \end{question}
 \end{exercises}
+
 		\subsection{Erasing Elements}
+Just as there are several ways to add elements to a (non\verb|array|) container there are
+also several ways to remove elements. These members are listed in Table \ref{tab:erase operations on sequential containers}.
+\begin{table}[H]
+\caption{\texttt{erase} Operations on Sequential Containers}
+\label{tab:erase operations on sequential containers}
+\centering
+\begin{tabular}{| ll |}
+\hline
+\multicolumn{2}{| c |}{\textbf{These operations change the size of the container and so are not supported by \texttt{array}.}} \\
+\multicolumn{2}{| c |}{\textbf{\texttt{forward\_list} has a special version of \texttt{erase}; see \S~\ref{tab:operations to insert or remove elements in a forwardlist} (p. \pageref{tab:operations to insert or remove elements in a forwardlist}).}} \\
+\multicolumn{2}{| c |}{\textbf{\texttt{pop\_back} not valid for \texttt{forward\_list}; \texttt{pop\_front} not valid for \texttt{vector} and \texttt{string}. }} \\
+& \\
+\makecell[tl]{\texttt{c.pop\_back()}} & \makecell[tl]{Removes last element in \texttt{c}. Undefined if \texttt{c} is empty. Returns \texttt{void}.} \\
+\makecell[tl]{\texttt{c.pop\_front()}} & \makecell[tl]{Removes first in \texttt{c}. Undefined if \texttt{c} is empty. Returns \texttt{void}.} \\
+\makecell[tl]{\texttt{c.erase(p)}} & \makecell[tl]{Removes the element denoted by the iterator \texttt{p} and returns an iterator to \\ the element after the one deleted or the off-the-end iterator if \texttt{p} denotes \\ the last element. Undefined if \texttt{p} is the off-the-end iterator.} \\
+\makecell[tl]{\texttt{c.erase(b,e)}} & \makecell[tl]{Removes the range of elements denoted by the iterators \texttt{b} and \texttt{e}. Returns \\ an iterator to the element after the last one that was deleted, or an \\ off-the-end iterator if \texttt{e} is itself an off-the-end iterator.} \\
+\makecell[tl]{\texttt{c.clear()}} & \makecell[tl]{Removes all the element in \texttt{c}. Returns \texttt{void}.} \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{note}
+Removing elements anywhere but the beginning or end of a \texttt{deque} invalidates all iterators, references, and pointers. Iterators, references, and pointers to elements after the erasure point in a \texttt{vector} or \texttt{string} are invalidated.
+\end{note}
+
+\begin{warning}
+The members that remove elements do not check their argument(s). The
+programmer must ensure that element(s) exist before removing them.
+\end{warning}
+
 		\subsection{Specialized \texttt{forward\_list} Operations}\label{subsec: specialized forwardlist operations}
+\begin{table}[H]
+\caption{Operations to Insert or Remove Elements in a \texttt{forward\_list}}
+\label{tab:operations to insert or remove elements in a forwardlist}
+\centering
+\begin{tabular}{| ll |}
+\end{tabular}
+\end{table}
 		\subsection{Resizing a Container}
 		\subsection{Container Operations May Invalidate Iterators}\label{subsec:container operations may invalidate iterators}
 	\section{How a vector Grows}\label{sec:how a vector grows}
