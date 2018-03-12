@@ -18219,6 +18219,74 @@ Removing elements anywhere but the beginning or end of a \texttt{deque} invalida
 The members that remove elements do not check their argument(s). The
 programmer must ensure that element(s) exist before removing them.
 \end{warning}
+			\paragraph{The \texttt{pop\_front} and \texttt{pop\_back} Members}
+The \verb|pop_front| and \verb|pop_back| functions remove the first and last elements,
+respectively. Just as there is no \verb|push_front| for \verb|vector| and \verb|string|, there is also
+no \verb|pop_front| for those types. Similarly, \verb|forward_list| does not have \verb|pop_back|.
+Like the element access members, we may not use a pop operation on an empty
+container.
+
+These operations return \verb|void|. If you need the value you are about to pop, you
+must store that value before doing the pop:
+\begin{lstlisting}
+while (!ilist.empty()) {
+   process(ilist.front()); // do something with the current top of ilist
+   ilist.pop_front(); // done; remove the first element
+}
+\end{lstlisting}
+			\paragraph{Removing an Element from within the Container}
+The \verb|erase| members remove element(s) at a specified point in the container. We can
+delete a single element denoted by an iterator or a range of elements marked by a
+pair of iterators. Both forms of \verb|erase| return an iterator referring to the location after
+the (last) element that was removed. That is, if \verb|j| is the element following \verb|i|, then
+\verb|erase(i)| will return an iterator referring to \verb|j|.
+
+As an example, the following loop erases the odd elements in a \verb|list|:
+\begin{lstlisting}
+list<int> lst = {0,1,2,3,4,5,6,7,8,9};
+auto it = lst.begin();
+while (it != lst.end())
+   if (*it % 2) // if the element is odd
+      it = lst.erase(it); // erase this element
+   else
+      ++it;
+\end{lstlisting}
+
+On each iteration, we check whether the current element is odd. If so, we \verb|erase| that
+element, setting \verb|it| to denote the element after the one we erased. If \verb|*it| is even,
+we increment \verb|it| so we’ll look at the next element on the next iteration.
+			\paragraph{Removing Multiple Elements}
+The iterator-pair version of \verb|erase| lets us delete a range of elements:
+\begin{lstlisting}[label={lst:delete the range of elements}]
+// delete the range of elements between two iterators
+// returns an iterator to the element just after the last removed element
+elem1 = slist.erase(elem1, elem2); // after the call elem1 == elem2
+\end{lstlisting}
+The iterator \verb|elem1| refers to the first element we want to erase, and \verb|elem2| refers to
+one past the last element we want to remove.
+
+To delete all the elements in a container, we can either call \verb|clear| or pass the
+iterators from \verb|begin| and \verb|end| to \verb|erase|:
+\begin{lstlisting}
+slist.clear(); // delete all the elements within the container
+slist.erase(slist.begin(), slist.end()); // equivalent
+\end{lstlisting}
+
+\begin{exercises}
+\begin{question}
+In the program on page \pageref{lst:delete the range of elements} that erased a range of elements, what happens if \verb|elem1| and \verb|elem2| are equal? What if \verb|elem2| or both \verb|elem1| and \verb|elem2| are the off-the-end iterator?
+\end{question}
+
+\begin{question}
+Using the following definition of \verb|ia|, copy \verb|ia| into a \verb|vector|
+and into a \verb|list|. Use the single-iterator form of \verb|erase| to remove the
+elements with odd values from your \verb|list| and the even values from your
+\verb|vector|.
+\begin{lstlisting}
+int ia[] = { 0, 1, 1, 2, 3, 5, 8, 13, 21, 55, 89 };
+\end{lstlisting}
+\end{question}
+\end{exercises}
 
 		\subsection{Specialized \texttt{forward\_list} Operations}\label{subsec: specialized forwardlist operations}
 \begin{table}[H]
